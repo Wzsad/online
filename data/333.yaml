@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-11 15:33:22
+# 生成时间：2024-10-12 09:27:37
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,128 +58,40 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
-    port: 8008
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_2
-    port: 8090
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 8008
-    server: 142.202.49.84
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇳🇱_NL_荷兰
-    port: 8080
-    server: 45.158.171.14
-    type: ss
-    udp: true
-    password: a8bt9fY0QsLS6eLnXUe0Ym
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_5
-    port: 9090
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 8881
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 5601
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国
+  - name: 高性价比机场:https://kfyun.uk
     port: 443
-    server: 212.102.53.195
+    server: 127.0.0.1
     type: ss
     udp: true
-    password: shadowsocks
+    password: 6601fb90e9b3
     cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 5004
-    server: 38.114.114.69
-    type: ss
+  - name: 俄羅斯+v2rayfree.eu.org
+    port: 443
+    server: present-blowfish.sunbeam921.monster
+    type: trojan
     udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国
-    port: 8080
-    server: 45.87.175.192
-    type: ss
+    sni: present-blowfish.sunbeam921.monster
+    password: "3672449442956713984"
+    skip-cert-verify: false
+  - name: 美国 CloudFlare节点_1
+    port: 2095
+    server: www.visa.com
+    type: vmess
+    network: ws
+    tls: false
     udp: true
-    password: gDFRe52uiIvVaxqPlqw439
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_11
-    port: 7307
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_13
-    port: 5001
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_14
-    port: 6679
-    server: 142.202.49.84
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
-    port: 8000
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_16
-    port: 2375
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_17
-    port: 9101
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_19
-    port: 8888
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: ip2.8084726.xyz
+    cipher: auto
+    uuid: a63e9c8c-2c04-4b8e-af6a-4a02494a1f0b
+    alterId: 0
+  - name: 法國+巴黎Amazon數據中心
     port: 22222
-    server: 18.134.27.86
+    server: 35.181.18.202
     type: trojan
     network: tcp
     udp: true
@@ -188,205 +100,159 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
-  - name: 🇺🇸_US_美国_21
-    port: 8000
-    server: 38.114.114.69
+  - name: 美国+华盛顿Cogent通信公司_1
+    port: 8091
+    server: 38.121.43.97
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
+    password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-    port: 80
-    server: 151.101.65.29
+  - name: 美国 CloudFlare节点_2
+    port: 443
+    server: 104.16.67.38
     type: vmess
     network: ws
-    tls: false
+    tls: true
     udp: true
     version: "2"
-    servername: ""
+    servername: us3e-mmnnfr9dop0.v2freevpn.com
     skip-cert-verify: true
     ws-opts:
-      path: /racevpn?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
+      path: /v118-fccxmxm35
       headers:
-        host: copy-az-ISVvpn-55.germanY.digiTALOCEAn.isvVPn.ORG.
+        host: us3e-mmnnfr9dop0.v2freevpn.com
     cipher: auto
-    uuid: b40aefd2-4431-41a0-8623-4d552a730070
+    uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
     alterId: 0
-  - name: 🇺🇸_US_美国_22
-    port: 22222
-    server: 3.76.238.103
-    type: trojan
-    network: tcp
+  - name: 欧盟+v2rayfree.eu.org
+    port: 8080
+    server: 45.87.175.154
+    type: ss
     udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇺🇸_US_美国_24
-    port: 9090
-    server: 69.50.95.218
+    password: gDFRe52uiIvVaxqPlqw439
+    cipher: chacha20-ietf-poly1305
+  - name: 美国+v2rayfree.eu.org_1
+    port: 8888
+    server: 69.50.93.113
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_25
-    port: 443
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_26
-    port: 9101
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_27
-    port: 6379
-    server: 38.110.1.12
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_29
-    port: 3389
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_30
-    port: 7306
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_31
+  - name: 美国+华盛顿Cogent通信公司_2
     port: 5601
     server: 38.110.1.105
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_32
-    port: 8119
-    server: 15.204.87.222
+  - name: 西班牙+v2rayfree.eu.org
+    port: 443
+    server: 185.238.228.6
+    type: trojan
+    network: ws
+    udp: true
+    sni: 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv
+    password: bpb-trojan
+    skip-cert-verify: false
+    ws-opts:
+      path: /trLb1imnrxPEhfzfwk?ed=2560
+      headers:
+        host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
+    alpn:
+      - h2,http/1.1
+    client-fingerprint: randomized
+  - name: 德國+黑森州法蘭克福Amazon數據中心
+    port: 22222
+    server: 35.156.130.123
+    type: trojan
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 美国+华盛顿Cogent通信公司_3
+    port: 5500
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 加拿大+v2rayfree.eu.org_1
+    port: 7306
+    server: 142.202.49.122
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 美国+v2rayfree.eu.org_2
+    port: 8882
+    server: 69.50.92.72
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 美国+华盛顿Cogent通信公司_4
+    port: 8118
+    server: 38.121.43.97
     type: ss
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_33
-    port: 8091
-    server: 38.114.114.69
+  - name: 美国+v2rayfree.eu.org_3
+    port: 9101
+    server: 69.50.95.103
     type: ss
     udp: true
-    password: PCnnH6SQSnfoS27
+    password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_34
-    port: 5500
-    server: 38.114.114.69
-    type: ss
+  - name: 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+    port: 1010
+    server: 188.166.96.150
+    type: vmess
+    network: tcp
+    tls: false
     udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_35
-    port: 5003
-    server: 38.114.114.69
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_36
-    port: 5498
-    server: 38.110.1.105
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: 高性价比机场:https://kfyun.uk
-    port: 443
-    server: 127.0.0.1
-    type: ss
-    udp: true
-    password: 6601fb90e9b3
-    cipher: aes-128-gcm
-  - name: 美国+v2rayfree.eu.org_1
-    port: 5498
-    server: 69.50.95.53
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: 意大利+v2rayfree.eu.org_1
-    port: 20003
-    server: service.ouluyun9803.com
-    type: ss
-    udp: true
-    password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-    cipher: chacha20-ietf-poly1305
-  - name: 北美地区+v2rayfree.eu.org
-    port: 443
-    server: 169.197.141.84
-    type: ss
-    udp: true
-    password: pKEW8JPByTVTLtM
-    cipher: aes-256-gcm
-  - name: 波兰+v2rayfree.eu.org
-    port: 40368
-    server: 193.243.147.128
-    type: ss
-    udp: true
-    password: 7BcLdsO1WweoGD0X
-    cipher: aes-256-gcm
-  - name: 美国+华盛顿Cogent通信公司_1
-    port: 5000
-    server: 38.143.66.87
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 意大利+v2rayfree.eu.org_2
-    port: 26667
-    server: service.ouluyun9803.com
-    type: ss
-    udp: true
-    password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-    cipher: chacha20-ietf-poly1305
-  - name: 美国+华盛顿Cogent通信公司_2
-    port: 6379
-    server: 38.143.66.87
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 加拿大+v2rayfree.eu.org
-    port: 5500
-    server: 142.202.49.122
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 美国 CloudFlare节点
-    port: 80
-    server: cfip.1323123.xyz
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 09e3fef1-3136-41a9-9531-6ea36482dea1
+    alterId: 0
+  - name: 美国 CloudFlare节点_3
+    port: 2095
+    server: 162.159.140.19
     type: vmess
     network: ws
     tls: false
     udp: true
-    servername: ""
+    version: "2"
     skip-cert-verify: true
     ws-opts:
-      path: /rongseven?ed=2048
+      path: github.com/Alvin9999
       headers:
-        host: kr.freegpt.filegear-sg.me
+        host: ip2.6016725.xyz
     cipher: auto
-    uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
     alterId: 0
-  - name: 印度 v2rayfree.eu.org
+  - name: 美国+华盛顿Cogent通信公司_5
+    port: 9101
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 广东省 移动
+    port: 12960
+    server: z3.fragranceninja.com
+    type: vmess
+    network: tcp
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: a32313ad-5e39-4f9a-9cad-512041790050
+    alterId: 0
+  - name: 印度 v2rayfree.eu.org_1
     port: 443
     server: 202.78.162.5
     type: vmess
@@ -398,342 +264,840 @@ proxies:
     ws-opts:
       path: /@forwardv2ray
       headers:
-        host: pendar.onthewifi.com
+        host: irsoft.sytes.net
     cipher: auto
-    uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+    uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
     alterId: 0
-  - name: 美国+v2rayfree.eu.org_2
-    port: 6697
-    server: 69.50.95.53
+  - name: 美国 CloudFlare节点_4
+    port: 8880
+    server: server31.beheshtbaneh.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: server31.beheshtbaneh.com
+    cipher: auto
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
+  - name: 印度 v2rayfree.eu.org_2
+    port: 443
+    server: 202.78.162.5
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /@forwardv2ray
+      headers:
+        host: sahand.serveminecraft.net
+    cipher: auto
+    uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+    alterId: 0
+  - name: 美国 CloudFlare节点_5
+    port: 2082
+    server: 172.64.198.249
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: ip3.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 美国+华盛顿Cogent通信公司_6
+    port: 8119
+    server: 38.68.134.9
     type: ss
     udp: true
-    password: TEzjfAYq2IjtuoS
+    password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 美國+CloudFlare節點
+  - name: 立陶宛+NGS新聞
     port: 443
-    server: 172.67.146.69
+    server: 185.176.24.2
     type: trojan
     network: ws
     udp: true
-    sni: 403b3611-99bC-43B7-88D7-26eD5D0825A9-3.pAgeS.dEv
+    sni: 403B3611-99bc-43B7-88d7-26ed5d0825a9-3.PaGes.deV
     password: bpb-trojan
     skip-cert-verify: false
     ws-opts:
-      path: /trUCa3SPfNEeCjidWR?ed=2560
+      path: /tr9vfP2lflALkJrNsQ?ed=2560
       headers:
         host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
     alpn:
       - h2,http/1.1
     client-fingerprint: randomized
+  - name: 美国+v2rayfree.eu.org_4
+    port: 8881
+    server: 69.50.92.72
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 美国+v2rayfree.eu.org_5
+    port: 2376
+    server: 139.64.165.230
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 加拿大+v2rayfree.eu.org_2
+    port: 5004
+    server: 142.202.49.84
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 美国+华盛顿Cogent通信公司_7
+    port: 6679
+    server: 38.68.134.9
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 北美地区+v2rayfree.eu.org
+    port: 5600
+    server: 23.150.152.41
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 美国+v2rayfree.eu.org_6
+    port: 6379
+    server: 69.50.95.53
+    type: ss
+    udp: true
+    password: zDNVedRFPQexG9v
+    cipher: aes-256-gcm
+  - name: 美国+华盛顿Cogent通信公司_8
+    port: 8118
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 美国 CloudFlare节点_6
+    port: 2095
+    server: 104.19.45.50
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: ip2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 美国+华盛顿Cogent通信公司_9
+    port: 8080
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 美国+加利福尼亚州旧金山市Awknet通信公司
+    port: 6697
+    server: 67.220.85.74
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 美国+华盛顿Cogent通信公司_10
+    port: 5003
+    server: 38.110.1.105
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 美國+v2rayfree.eu.org
+    port: 2096
+    server: 45.142.120.4
+    type: trojan
+    network: ws
+    udp: true
+    sni: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV
+    password: bpb-trojan
+    skip-cert-verify: true
+    ws-opts:
+      path: /troUbg9Q3QgD0TJRfy?ed=2560
+      headers:
+        host: 403b3611-99bc-43b7-88d7-26ed5d0825a9-3.pages.dev
+  - name: 美国+华盛顿Cogent通信公司_11
+    port: 7306
+    server: 38.121.43.97
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: 加拿大+v2rayfree.eu.org_3
+    port: 8118
+    server: 142.202.49.122
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 美国+v2rayfree.eu.org_7
+    port: 8080
+    server: 45.158.171.19
+    type: ss
+    udp: true
+    password: a8bt9fY0QsLS6eLnXUe0Ym
+    cipher: chacha20-ietf-poly1305
+  - name: 美国+华盛顿Cogent通信公司_12
+    port: 7002
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 美国+华盛顿Cogent通信公司_13
+    port: 443
+    server: 38.114.114.69
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_1
+    port: 2376
+    server: 169.197.142.216
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_1
+    port: 22222
+    server: 18.159.29.8
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇺🇸_US_美国_2
+    port: 8882
+    server: 69.50.95.103
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_3
+    port: 6679
+    server: 142.202.49.84
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇳🇱_NL_荷兰_1
+    port: 8080
+    server: 45.158.171.36
+    type: ss
+    udp: true
+    password: a8bt9fY0QsLS6eLnXUe0Ym
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_4
+    port: 6679
+    server: 69.50.92.72
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+    port: 32935
+    server: 13.74.65.144
+    type: ss
+    udp: true
+    password: FX77Cp2CHKq8JKTHux2xUi
+    cipher: chacha20-ietf-poly1305
+  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
+    port: 443
+    server: 212.102.53.198
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_5
+    port: 5003
+    server: 142.202.49.84
+    type: ss
+    udp: true
+    password: g5MeD6Ft3CWlJId
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
+    port: 8008
+    server: 142.202.49.84
+    type: ss
+    udp: true
+    password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 9090
+    server: 69.50.95.218
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 443
+    server: 38.114.114.143
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇷🇺_RU_俄罗斯
+    port: 40076
+    server: 194.87.45.189
+    type: ss
+    udp: true
+    password: ECjp87TIkUiJ5AhRZglZ9E
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_10
+    port: 2376
+    server: 38.114.114.143
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_2
+    port: 22222
+    server: 3.75.33.55
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇳🇱_NL_荷兰_2
+    port: 8080
+    server: 45.158.171.9
+    type: ss
+    udp: true
+    password: a8bt9fY0QsLS6eLnXUe0Ym
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+    port: 20003
+    server: deepf.hjkdsak2.com
+    type: ss
+    udp: true
+    password: 99301d55-a41f-4919-986b-1435996533aa
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_3
+    port: 22222
+    server: 15.156.254.3
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇩🇪_DE_德国
+    port: 8080
+    server: 45.87.175.178
+    type: ss
+    udp: true
+    password: gDFRe52uiIvVaxqPlqw439
+    cipher: chacha20-ietf-poly1305
+  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
+    port: 443
+    server: 212.102.53.195
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_11
+    port: 7002
+    server: 169.197.142.216
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+    port: 43526
+    server: 120.232.153.40
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+    alterId: 64
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 43526
+    server: 120.232.153.71
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
+    alterId: 64
+  - name: 🇺🇸_US_美国_12
+    port: 8080
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -756,52 +1120,73 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 高性价比机场:https://kfyun.uk
+      - 俄羅斯+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 法國+巴黎Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_1
+      - 美国 CloudFlare节点_2
+      - 欧盟+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_1
+      - 美国+华盛顿Cogent通信公司_2
+      - 西班牙+v2rayfree.eu.org
+      - 德國+黑森州法蘭克福Amazon數據中心
+      - 美国+华盛顿Cogent通信公司_3
+      - 加拿大+v2rayfree.eu.org_1
+      - 美国+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_4
+      - 美国+v2rayfree.eu.org_3
+      - 荷兰 北荷兰省阿姆斯特丹DigitalOcean数据中心
+      - 美国 CloudFlare节点_3
+      - 美国+华盛顿Cogent通信公司_5
+      - 广东省 移动
+      - 印度 v2rayfree.eu.org_1
+      - 美国 CloudFlare节点_4
+      - 印度 v2rayfree.eu.org_2
+      - 美国 CloudFlare节点_5
+      - 美国+华盛顿Cogent通信公司_6
+      - 立陶宛+NGS新聞
+      - 美国+v2rayfree.eu.org_4
+      - 美国+v2rayfree.eu.org_5
+      - 加拿大+v2rayfree.eu.org_2
+      - 美国+华盛顿Cogent通信公司_7
+      - 北美地区+v2rayfree.eu.org
+      - 美国+v2rayfree.eu.org_6
+      - 美国+华盛顿Cogent通信公司_8
+      - 美国 CloudFlare节点_6
+      - 美国+华盛顿Cogent通信公司_9
+      - 美国+加利福尼亚州旧金山市Awknet通信公司
+      - 美国+华盛顿Cogent通信公司_10
+      - 美國+v2rayfree.eu.org
+      - 美国+华盛顿Cogent通信公司_11
+      - 加拿大+v2rayfree.eu.org_3
+      - 美国+v2rayfree.eu.org_7
+      - 美国+华盛顿Cogent通信公司_12
+      - 美国+华盛顿Cogent通信公司_13
       - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
       - 🇺🇸_US_美国_2
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰
+      - 🇳🇱_NL_荷兰_1
+      - 🇺🇸_US_美国_4
+      - 🇮🇪_IE_爱尔兰->🇷🇺_RU_俄罗斯
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
       - 🇺🇸_US_美国_7
-      - 🇬🇧_GB_英国
       - 🇺🇸_US_美国_8
+      - 🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_2
+      - 🇳🇱_NL_荷兰_2
+      - 🇨🇳_CN_中国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国->🇨🇳_CN_中国_3
       - 🇩🇪_DE_德国
+      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯_2
       - 🇺🇸_US_美国_11
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_19
-      - 🇬🇧_GB_英国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国->🇸🇪_SE_瑞典_2
-      - 🇺🇸_US_美国_22
-      - 🇺🇸_US_美国_24
-      - 🇺🇸_US_美国_25
-      - 🇺🇸_US_美国_26
-      - 🇺🇸_US_美国_27
-      - 🇺🇸_US_美国_29
-      - 🇺🇸_US_美国_30
-      - 🇺🇸_US_美国_31
-      - 🇺🇸_US_美国_32
-      - 🇺🇸_US_美国_33
-      - 🇺🇸_US_美国_34
-      - 🇺🇸_US_美国_35
-      - 🇺🇸_US_美国_36
-      - 高性价比机场:https://kfyun.uk
-      - 美国+v2rayfree.eu.org_1
-      - 意大利+v2rayfree.eu.org_1
-      - 北美地区+v2rayfree.eu.org
-      - 波兰+v2rayfree.eu.org
-      - 美国+华盛顿Cogent通信公司_1
-      - 意大利+v2rayfree.eu.org_2
-      - 美国+华盛顿Cogent通信公司_2
-      - 加拿大+v2rayfree.eu.org
-      - 美国 CloudFlare节点
-      - 印度 v2rayfree.eu.org
-      - 美国+v2rayfree.eu.org_2
-      - 美國+CloudFlare節點
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_12
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
