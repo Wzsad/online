@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-15 10:58:05
+# 生成时间：2024-10-16 15:45:03
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,26 +58,6 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇯🇵_JP_日本
-    port: 443
-    server: 35.95.35.113
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 43526
-    server: 120.232.153.40
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-    alterId: 64
   - name: 🇺🇸_US_美国_3
     port: 8118
     server: 69.50.92.110
@@ -85,40 +65,35 @@ proxies:
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 🇳🇱_NL_荷兰_1
-    port: 8080
-    server: 45.158.171.2
+  - name: 🇬🇧_GB_英国
+    port: 443
+    server: 212.102.53.198
     type: ss
     udp: true
-    password: a8bt9fY0QsLS6eLnXUe0Ym
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_10
-    port: 8888
-    server: 69.50.93.113
-    type: ss
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 22222
+    server: 3.71.242.90
+    type: trojan
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 43526
-    server: 120.232.153.71
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-    alterId: 64
-  - name: 🇺🇸_US_美国_11
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+  - name: 🇺🇸_US_美国_9
     port: 443
     server: 52.43.33.6
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_10
+    port: 443
+    server: 205.134.180.150
+    type: ss
+    udp: true
+    password: 5cp9Z3iWnJZ2
+    cipher: chacha20-ietf-poly1305
   - name: 🇨🇳_CN_中国->🇩🇪_DE_德国
     port: 20934
     server: 221.181.185.71
@@ -126,120 +101,332 @@ proxies:
     udp: true
     password: bbO8KazkNBUGb7HP
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_13
-    port: 2376
-    server: 139.64.165.230
+  - name: 🇺🇸_US_美国_12
+    port: 9090
+    server: 69.50.95.218
     type: ss
     udp: true
-    password: faBAoD54k87UJG7
+    password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-    port: 443
-    server: 212.102.53.198
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇳🇱_NL_荷兰_2
-    port: 8080
-    server: 45.158.171.44
-    type: ss
-    udp: true
-    password: a8bt9fY0QsLS6eLnXUe0Ym
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_14
-    port: 443
-    server: 205.134.180.150
-    type: ss
-    udp: true
-    password: 5cp9Z3iWnJZ2
-    cipher: chacha20-ietf-poly1305
-  - name: 🇬🇧[openproxylist.com] trojan-GB_1
+  - name: 🇨🇦[openproxylist.com] trojan-CA_1
     port: 22222
-    server: 3.9.21.220
+    server: 52.60.106.39
     type: trojan
     network: tcp
     udp: true
     sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
+    password: telegram-id-directvpn
     skip-cert-verify: false
     alpn:
       - http/1.1
   - name: 🇫🇷[openproxylist.com] vmess-FR_1
     port: 443
-    server: www.speedtest.net
+    server: 104.21.44.106
     type: vmess
     network: ws
     tls: true
     udp: true
     version: "2"
-    servername: weathered-lake-fb11.whaleproject.workers.dev.
+    servername: xmivideo.cfd
     skip-cert-verify: true
     ws-opts:
-      path: /join.dash.cloudflare.com.b9e510abeff7167f.ftp.debian.org.b9e510abeff7167f.www.speedtest.net.b9e510abeff7167f.com.dochanub.com./?ed=2056
+      path: /linkws
       headers:
-        host: weathered-lake-fb11.whaleproject.workers.dev
+        host: xmivideo.cfd
     cipher: auto
-    uuid: biia-vpn-whal-1
+    uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
     alterId: 0
   - name: 🇺🇸[openproxylist.com] trojan-US_1
-    port: 20230
-    server: us004.421421.xyz
-    type: trojan
-    udp: true
-    sni: 421421.xyz
-    password: cf13832b-4ca0-4fee-8e85-2b2411104e75
-    skip-cert-verify: false
-  - name: 🇨🇭[openproxylist.com] ss-CH_1
-    port: 16025
-    server: 91.103.253.171
-    type: ss
-    udp: true
-    password: Lfj1dZf9m66J1raUgd6mjs
-    cipher: chacha20-ietf-poly1305
-  - name: 🇮🇪[openproxylist.com] trojan-IE_1
     port: 22222
-    server: 54.74.201.115
+    server: 18.222.16.178
     type: trojan
     network: tcp
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇺🇸[openproxylist.com] vmess-US_1
+    port: 443
+    server: hms07.xfixedfloat.cfd
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: afrhms07.xfixedfloat.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: afrhms07.xfixedfloat.cfd
+    cipher: auto
+    uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+    alterId: 0
+  - name: 🇩🇪[openproxylist.com] vmess-DE_1
+    port: 2087
+    server: 104.16.67.38
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: hyfhhg.jadovah977.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /jahfkjha.cfd/linkws
+      headers:
+        host: hyfhhg.jadovah977.workers.dev
+    cipher: auto
+    uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+    alterId: 0
+  - name: 🇸🇪[openproxylist.com] vmess-SE
+    port: 23502
+    server: mmd.7.isovpn.shop
+    type: vmess
+    network: grpc
+    tls: true
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 2b722250-8d19-4e83-9a5b-7dfd6c0f1fd0
+    alterId: 0
+  - name: 🇩🇪[openproxylist.com] vmess-DE_2
+    port: 443
+    server: 172.67.220.83
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: linja05.hwcar.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: linja05.hwcar.sbs
+    cipher: auto
+    uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+    alterId: 0
+  - name: 🇱🇺[openproxylist.com] ss-LU
+    port: 40479
+    server: 107.189.6.21
+    type: ss
+    udp: true
+    password: zV25VZR92UmLgR6hTNawRC
+    cipher: chacha20-ietf-poly1305
+  - name: 🇩🇪[openproxylist.com] trojan-DE_1
+    port: 22222
+    server: 3.124.66.211
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇩🇪[openproxylist.com] vmess-DE_3
+    port: 443
+    server: 172.67.220.83
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: linja05.hwcar.sbs
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: linja05.hwcar.sbs
+    cipher: auto
+    uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
+    alterId: 0
+  - name: 🇺🇸[openproxylist.com] vmess-US_2
+    port: 443
+    server: ddd.zbb07.US.kG
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /linde06.indiavideo.sbs:443/linkws
+      headers:
+        host: ddd.zbb07.US.kG
+    cipher: auto
+    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    alterId: 0
+  - name: 🇫🇷[openproxylist.com] vmess-FR_2
+    port: 443
+    server: visa.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: obdii.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: obdii.cfd
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: 🇬🇧[openproxylist.com] vmess-GB
+    port: 443
+    server: 104.17.88.212
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: worker-bitter-math-2af8.waxoha3621.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /glweidf.sbs/linkws
+      headers:
+        host: worker-bitter-math-2af8.waxoha3621.workers.dev
+    cipher: auto
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+  - name: 🇮🇪[openproxylist.com] trojan-IE_1
+    port: 22222
+    server: 18.202.65.248
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇨🇦[openproxylist.com] trojan-CA_2
+    port: 22222
+    server: 99.79.180.225
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇸🇪[openproxylist.com] trojan-SE_1
+    port: 22222
+    server: 16.171.216.138
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇬🇧[openproxylist.com] trojan-GB_1
+    port: 22222
+    server: 13.41.234.28
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇩🇪[openproxylist.com] trojan-DE_2
+    port: 22222
+    server: 3.77.119.128
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇵🇱[openproxylist.com] vmess-PL
+    port: 3051
+    server: 128.204.223.42
+    type: vmess
+    network: grpc
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: e0a28322-0fd8-4e5d-ba69-892bdc0bcf38
+    alterId: 0
+  - name: 🇸🇬[openproxylist.com] vmess-SG_1
+    port: 443
+    server: 3.clarity168.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    servername: 3.clarity168.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /tk
+      headers:
+        host: 3.clarity168.com
+    cipher: auto
+    uuid: 48f837fa-12d0-498d-b5f6-94f9979736a4
+    alterId: 0
+  - name: 🇫🇷[openproxylist.com] trojan-FR_1
+    port: 22222
+    server: 51.44.61.140
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇫🇷[openproxylist.com] trojan-FR_2
+    port: 22222
+    server: 13.38.154.57
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇬🇧[openproxylist.com] trojan-GB_2
+    port: 22222
+    server: 3.11.196.96
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇬🇧[openproxylist.com] trojan-GB_3
+    port: 22222
+    server: 18.171.113.172
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
     skip-cert-verify: false
     alpn:
       - http/1.1
   - name: 🇮🇪[openproxylist.com] trojan-IE_2
     port: 22222
-    server: 34.248.51.203
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇨🇭[openproxylist.com] ss-CH_2
-    port: 7001
-    server: 23.166.88.132
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇸🇪[openproxylist.com] trojan-SE_1
-    port: 22222
-    server: 51.21.27.94
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇨🇦[openproxylist.com] trojan-CA
-    port: 22222
-    server: 15.157.39.237
+    server: 54.246.56.102
     type: trojan
     network: tcp
     udp: true
@@ -248,9 +435,9 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
-  - name: 🇮🇪[openproxylist.com] trojan-IE_3
+  - name: 🇫🇷[openproxylist.com] trojan-FR_3
     port: 22222
-    server: 46.137.38.173
+    server: 35.181.238.231
     type: trojan
     network: tcp
     udp: true
@@ -259,23 +446,108 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
+  - name: 🇮🇪[openproxylist.com] trojan-IE_3
+    port: 22222
+    server: 34.252.72.246
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇫🇷[openproxylist.com] trojan-FR_4
+    port: 22222
+    server: 13.39.147.203
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇸🇪[openproxylist.com] trojan-SE_2
+    port: 22222
+    server: 13.53.161.110
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇩🇪[openproxylist.com] trojan-DE_3
+    port: 22222
+    server: 3.121.254.189
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇳🇱[openproxylist.com] ss-NL_1
+    port: 42029
+    server: 208.67.105.196
+    type: ss
+    udp: true
+    password: SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+    cipher: chacha20-ietf-poly1305
   - name: 🇺🇸[openproxylist.com] ss-US_1
-    port: 3306
-    server: 23.150.248.29
+    port: 5003
+    server: 38.110.1.197
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] ss-US_2
-    port: 7002
-    server: 23.150.248.122
+  - name: 🇨🇭[openproxylist.com] ss-CH_1
+    port: 5555
+    server: 195.15.243.125
     type: ss
     udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] vmess-US_1
-    port: 8888
-    server: 23.166.24.219
+    password: AdcivTASb8XWqRKubWaz2w
+    cipher: chacha20-ietf-poly1305
+  - name: 🇮🇪[openproxylist.com] ss-IE_1
+    port: 30829
+    server: 13.74.71.20
+    type: ss
+    udp: true
+    password: uucrxe4fudow95euxICuTE
+    cipher: chacha20-ietf-poly1305
+  - name: 🇸🇪[openproxylist.com] trojan-SE_3
+    port: 22222
+    server: 16.170.12.85
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇻🇳[openproxylist.com] trojan-VN
+    port: 443
+    server: std1.loadingip.com
+    type: trojan
+    network: tcp
+    udp: true
+    password: 94d219c9-1afc-4d42-b090-8b3794764380
+    skip-cert-verify: false
+  - name: 🇹🇼[openproxylist.com] trojan-TW
+    port: 443
+    server: twnode11.oportal.cc
+    type: trojan
+    udp: true
+    sni: twnode11.oportal.cc
+    password: 981db44e-9f07-49eb-9ba0-6ab4939919a2
+    skip-cert-verify: false
+  - name: 🇯🇵[openproxylist.com] vmess-JP
+    port: 80
+    server: 104.19.24.91
     type: vmess
     network: ws
     tls: false
@@ -284,21 +556,84 @@ proxies:
     servername: ""
     skip-cert-verify: true
     ws-opts:
-      path: /wada12222
+      path: /juzi
       headers:
-        host: tms.dingtalk.com
+        host: juzi_jp.zdzdzd.xyz
     cipher: auto
-    uuid: 3ac84369-8496-446d-aaf7-5e0306048d55
+    uuid: 65d0a3ab-c03a-4b02-a82a-477b1d5bc082
+    alterId: 0
+  - name: 🇭🇰[openproxylist.com] vmess-HK_1
+    port: 2902
+    server: 143.92.42.65
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
     alterId: 0
   - name: 🇺🇸[openproxylist.com] trojan-US_2
-    port: 20230
-    server: us004.421421.xyz
+    port: 45601
+    server: 155.248.205.39
     type: trojan
+    network: tcp
     udp: true
-    sni: 421421.xyz
-    password: cf13832b-4ca0-4fee-8e85-2b2411104e75
-    skip-cert-verify: false
-  - name: 🇺🇸[openproxylist.com] vmess-US_2
+    sni: f.522226.xyz
+    password: xjN4xcuPGg
+    skip-cert-verify: true
+  - name: 🇮🇪[openproxylist.com] ss-IE_2
+    port: 8388
+    server: 95.164.44.21
+    type: ss
+    udp: true
+    password: Y2QwYmNi
+    cipher: chacha20-ietf-poly1305
+  - name: 🇬🇧[openproxylist.com] ss-GB
+    port: 7547
+    server: 46.226.163.130
+    type: ss
+    udp: true
+    password: hgDLXWqwFqAsSdPiToCZx0
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸[openproxylist.com] ss-US_2
+    port: 16899
+    server: 23.95.68.112
+    type: ss
+    udp: true
+    password: Yc2CtrIz8L
+    cipher: aes-128-gcm
+  - name: 🇨🇭[openproxylist.com] ss-CH_2
+    port: 16025
+    server: 91.103.253.171
+    type: ss
+    udp: true
+    password: Lfj1dZf9m66J1raUgd6mjs
+    cipher: chacha20-ietf-poly1305
+  - name: 🇨🇭[openproxylist.com] ss-CH_3
+    port: 7001
+    server: 23.166.88.132
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸[openproxylist.com] ss-US_3
+    port: 3306
+    server: 23.150.248.29
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸[openproxylist.com] ss-US_4
+    port: 7002
+    server: 23.150.248.122
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸[openproxylist.com] vmess-US_3
     port: 443
     server: lammaland.org
     type: vmess
@@ -315,138 +650,6 @@ proxies:
     cipher: auto
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 1
-  - name: 🇬🇧[openproxylist.com] trojan-GB_2
-    port: 22222
-    server: 18.170.143.80
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇸🇪[openproxylist.com] trojan-SE_2
-    port: 22222
-    server: 13.49.124.188
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇮🇪[openproxylist.com] trojan-IE_4
-    port: 22222
-    server: 18.200.6.189
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇬🇧[openproxylist.com] trojan-GB_3
-    port: 22222
-    server: 18.169.88.20
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇩🇪[openproxylist.com] trojan-DE_1
-    port: 22222
-    server: 18.184.141.173
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇸🇪[openproxylist.com] trojan-SE_3
-    port: 22222
-    server: 16.170.174.167
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇩🇪[openproxylist.com] trojan-DE_2
-    port: 22222
-    server: 18.156.68.236
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇫🇷[openproxylist.com] trojan-FR_1
-    port: 22222
-    server: 13.36.87.53
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇫🇷[openproxylist.com] trojan-FR_2
-    port: 22222
-    server: 35.180.78.34
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇫🇷[openproxylist.com] trojan-FR_3
-    port: 22222
-    server: 13.36.224.254
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇬🇧[openproxylist.com] trojan-GB_4
-    port: 22222
-    server: 18.132.78.2
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇫🇷[openproxylist.com] trojan-FR_4
-    port: 22222
-    server: 35.180.147.112
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
   - name: 🇹🇷[openproxylist.com] vmess-TR
     port: 443
     server: 103.215.218.222
@@ -464,54 +667,7 @@ proxies:
     cipher: auto
     uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
     alterId: 1
-  - name: 🇺🇸[openproxylist.com] ss-US_3
-    port: 9483
-    server: 92.118.112.101
-    type: ss
-    udp: true
-    password: ddki5GaPewi5AOxQHtTbhR
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸[openproxylist.com] ss-US_4
-    port: 8985
-    server: 80.92.205.32
-    type: ss
-    udp: true
-    password: Oh220yTCQwMCN7Cc7DVlwW
-    cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬[openproxylist.com] vmess-SG_1
-    port: 80
-    server: 47.84.66.79
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /9caa711c
-      headers:
-        host: ""
-    cipher: auto
-    uuid: 9caa711c-2490-4041-812d-edbcb994fd18
-    alterId: 0
-  - name: 🇸🇬[openproxylist.com] vmess-SG_2
-    port: 443
-    server: 192.53.172.172
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: 192.53.172.172
-    skip-cert-verify: true
-    ws-opts:
-      path: /nrMnVTFq
-      headers:
-        host: 192.53.172.172
-    cipher: auto
-    uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-    alterId: 0
-  - name: 🇭🇰[openproxylist.com] vmess-HK
+  - name: 🇭🇰[openproxylist.com] vmess-HK_2
     port: 25067
     server: 47.238.51.171
     type: vmess
@@ -524,7 +680,7 @@ proxies:
     cipher: auto
     uuid: a32ea699-fcb2-4fbe-c039-39a05223ef5d
     alterId: 0
-  - name: 🇸🇬[openproxylist.com] vmess-SG_3
+  - name: 🇸🇬[openproxylist.com] vmess-SG_2
     port: 22853
     server: 47.236.112.187
     type: vmess
@@ -536,6 +692,51 @@ proxies:
     skip-cert-verify: true
     cipher: auto
     uuid: 18e7d3f4-c350-41f7-dbce-89ff768a0d30
+    alterId: 0
+  - name: 🇸🇬[openproxylist.com] vmess-SG_3
+    port: 41006
+    server: 138.2.89.88
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: f5568888-c83f-49b8-b6c4-a2f4d9d2ae2f
+    alterId: .nan
+  - name: 🇺🇸[openproxylist.com] vmess-US_4
+    port: 8080
+    server: 104.16.61.8
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: hyfhhg.jadovah977.workers.dev
+    skip-cert-verify: true
+    ws-opts:
+      path: /jahfkjha.cfd/linkws
+      headers:
+        host: hyfhhg.jadovah977.workers.dev
+    cipher: auto
+    uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
+    alterId: 0
+  - name: 🇩🇪[openproxylist.com] vmess-DE_4
+    port: 443
+    server: 104.21.44.106
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: xmivideo.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: xmivideo.cfd
+    cipher: auto
+    uuid: 93ea486a-bada-42a4-ac38-d088b320fa1e
     alterId: 0
   - name: 🇰🇷[openproxylist.com] ss-KR
     port: 21744
@@ -557,39 +758,21 @@ proxies:
     cipher: auto
     uuid: c16064c9-b650-4152-baac-ec690cfe796d
     alterId: 0
-  - name: 🇫🇷[openproxylist.com] vmess-FR_2
-    port: 2086
-    server: 104.16.67.38
+  - name: 🇫🇷[openproxylist.com] vmess-FR_3
+    port: 443
+    server: ddd.zcr07.uS.KG
     type: vmess
     network: ws
-    tls: false
+    tls: true
     udp: true
-    version: "2"
     servername: ""
     skip-cert-verify: true
     ws-opts:
-      path: /linde06.indiavideo.sbs/linkws
+      path: /linde06.indiavideo.sbs:443/linkws
       headers:
-        host: snowy-river-f497.turkeys-radford.workers.dev
+        host: ddd.zcr07.uS.KG
     cipher: auto
     uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    alterId: 0
-  - name: 🇬🇧[openproxylist.com] vmess-GB
-    port: 80
-    server: Zmaoz.Faculty.Ucdavis.Edu
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /RACEVPN?telegram-@ISVvpn-telegram-@ISVvpn-telegram-@ISVvpn
-      headers:
-        host: bRItISh.ovH.55.ISVvpn.UK.
-    cipher: auto
-    uuid: 7f3e901c-76eb-4480-8803-947e4674ecaa
     alterId: 0
   - name: 🇩🇪[openproxylist.com] ss-DE
     port: 36298
@@ -598,7 +781,7 @@ proxies:
     udp: true
     password: eYIAoGqIiRxoKF5zsnpmade3UnUEJchNghNYliDVlYk=
     cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] vmess-US_3
+  - name: 🇺🇸[openproxylist.com] vmess-US_5
     port: 443
     server: 104.25.112.185
     type: vmess
@@ -614,7 +797,7 @@ proxies:
     cipher: auto
     uuid: 09d5805c-7a22-47c1-b1c3-f090df0a98ed
     alterId: 0
-  - name: 🇨🇭[openproxylist.com] ss-CH_3
+  - name: 🇨🇭[openproxylist.com] ss-CH_4
     port: 8118
     server: 23.166.88.221
     type: ss
@@ -635,135 +818,211 @@ proxies:
     udp: true
     password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
-  - name: 🇨🇭[openproxylist.com] ss-CH_4
-    port: 3389
+  - name: 🇨🇭[openproxylist.com] ss-CH_5
+    port: 2376
     server: 23.166.88.198
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: faBAoD54k87UJG7
     cipher: aes-256-gcm
-  - name: 🇯🇵[openproxylist.com] vmess-JP
-    port: 443
-    server: 172.234.94.163
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    servername: 172.234.94.163
-    skip-cert-verify: true
-    ws-opts:
-      path: /fkPaQhPT
-      headers:
-        host: 172.234.94.163
-    cipher: auto
-    uuid: 7ad8da0c-fda5-416b-9e72-47cc68313ffe
-    alterId: 0
-  - name: 🇮🇪[openproxylist.com] ss-IE
+  - name: 🇮🇪[openproxylist.com] ss-IE_3
     port: 32935
     server: 13.74.65.144
     type: ss
     udp: true
     password: FX77Cp2CHKq8JKTHux2xUi
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_1
+  - name: 🇨🇾[openproxylist.com] trojan-CY
+    port: 443
+    server: present-blowfish.sunbeam921.monster
+    type: trojan
+    udp: true
+    sni: present-blowfish.sunbeam921.monster
+    password: "3672449442956713984"
+    skip-cert-verify: false
+  - name: 🇩🇪[openproxylist.com] vmess-DE_5
+    port: 443
+    server: www.Kayak.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: www.Kayak.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /racevpn
+      headers:
+        host: gerMAnyISvP.iR.
+    cipher: auto
+    uuid: 6529ee7d-b090-4515-8595-8bbdb6227fe1
+    alterId: 0
+  - name: 🇫🇷[openproxylist.com] vmess-FR_4
+    port: 2052
+    server: 104.18.25.92
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /afrhms16v.bestxray.buzz/linkws
+      headers:
+        host: mysan2.jaquay22.workers.dev
+    cipher: auto
+    uuid: f584de15-2034-4170-a723-f48c2bae5e0f
+    alterId: 0
+  - name: 🇫🇷[openproxylist.com] vmess-FR_5
+    port: 2082
+    server: 104.16.61.8
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /ivideos.sbs/linkws
+      headers:
+        host: ury-unit-c030ehei8.poget71138.workers.dev
+    cipher: auto
+    uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+    alterId: 0
+  - name: 🇳🇱[openproxylist.com] ss-NL_2
     port: 8080
     server: 45.87.175.164
     type: ss
     udp: true
     password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_2
+  - name: 🇳🇱[openproxylist.com] ss-NL_3
     port: 8080
     server: 45.87.175.171
     type: ss
     udp: true
     password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_3
+  - name: 🇳🇱[openproxylist.com] ss-NL_4
     port: 8080
     server: 45.87.175.192
     type: ss
     udp: true
     password: gDFRe52uiIvVaxqPlqw439
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_4
+  - name: 🇳🇱[openproxylist.com] ss-NL_5
     port: 8080
     server: 45.87.175.178
     type: ss
     udp: true
     password: gDFRe52uiIvVaxqPlqw439
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_5
+  - name: 🇳🇱[openproxylist.com] ss-NL_6
     port: 8080
     server: 45.87.175.199
     type: ss
     udp: true
-    password: gDFRe52uiIvVaxqPlqw439
+    password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_6
+  - name: 🇳🇱[openproxylist.com] ss-NL_7
     port: 8080
     server: 45.87.175.188
     type: ss
     udp: true
-    password: gDFRe52uiIvVaxqPlqw439
+    password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_7
+  - name: 🇳🇱[openproxylist.com] ss-NL_8
     port: 8080
     server: 45.87.175.181
     type: ss
     udp: true
-    password: gDFRe52uiIvVaxqPlqw439
+    password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_8
+  - name: 🇳🇱[openproxylist.com] ss-NL_9
     port: 8080
     server: 45.87.175.154
     type: ss
     udp: true
-    password: gDFRe52uiIvVaxqPlqw439
+    password: g9AJsrBPgW4Nhjoy3xCioC
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_9
+  - name: 🇳🇱[openproxylist.com] ss-NL_10
     port: 8080
     server: 45.87.175.166
     type: ss
     udp: true
     password: gDFRe52uiIvVaxqPlqw439
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_10
+  - name: 🇩🇪[openproxylist.com] vmess-DE_6
+    port: 443
+    server: 23.158.56.81
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: 23.158.56.81
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws
+      headers:
+        host: 23.158.56.81
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+  - name: 🇺🇸[openproxylist.com] vmess-US_6
+    port: 443
+    server: 172.67.217.210
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: kalavryta.org
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws
+      headers:
+        host: kalavryta.org
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+  - name: 🇳🇱[openproxylist.com] ss-NL_11
     port: 8080
     server: 45.158.171.14
     type: ss
     udp: true
     password: a8bt9fY0QsLS6eLnXUe0Ym
     cipher: chacha20-ietf-poly1305
-  - name: 🇳🇱[openproxylist.com] ss-NL_11
-    port: 8080
-    server: 45.158.171.36
-    type: ss
-    udp: true
-    password: a8bt9fY0QsLS6eLnXUe0Ym
-    cipher: chacha20-ietf-poly1305
   - name: 🇳🇱[openproxylist.com] ss-NL_12
     port: 8080
-    server: 45.158.171.44
+    server: 193.29.139.248
     type: ss
     udp: true
     password: a8bt9fY0QsLS6eLnXUe0Ym
     cipher: chacha20-ietf-poly1305
   - name: 🇳🇱[openproxylist.com] ss-NL_13
     port: 8080
-    server: 45.158.171.29
+    server: 45.158.171.44
     type: ss
     udp: true
     password: a8bt9fY0QsLS6eLnXUe0Ym
     cipher: chacha20-ietf-poly1305
   - name: 🇳🇱[openproxylist.com] ss-NL_14
     port: 8080
+    server: 45.158.171.29
+    type: ss
+    udp: true
+    password: a8bt9fY0QsLS6eLnXUe0Ym
+    cipher: chacha20-ietf-poly1305
+  - name: 🇳🇱[openproxylist.com] ss-NL_15
+    port: 8080
     server: 45.158.171.35
     type: ss
     udp: true
     password: a8bt9fY0QsLS6eLnXUe0Ym
     cipher: chacha20-ietf-poly1305
-  - name: 🇩🇪[openproxylist.com] vmess-DE_1
+  - name: 🇩🇪[openproxylist.com] vmess-DE_7
     port: 443
     server: an.anaviriti.info
     type: vmess
@@ -787,9 +1046,42 @@ proxies:
     udp: true
     password: LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj
     cipher: chacha20-ietf-poly1305
-  - name: 🇫🇷[openproxylist.com] vmess-FR_3
+  - name: 🇩🇪[openproxylist.com] vmess-DE_8
+    port: 8880
+    server: 104.16.68.38
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /linde06.indiavideo.sbs/linkws
+      headers:
+        host: subhk.osafari599.workers.dev
+    cipher: auto
+    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
+    alterId: 0
+  - name: 🇨🇭[openproxylist.com] vmess-CH
     port: 443
-    server: 172.67.170.11
+    server: 186.190.215.149
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: 186.190.215.149
+    skip-cert-verify: true
+    ws-opts:
+      path: linkvws
+      headers:
+        host: 186.190.215.149
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+  - name: 🇫🇷[openproxylist.com] vmess-FR_6
+    port: 443
+    server: 172.67.196.112
     type: vmess
     network: ws
     tls: true
@@ -804,9 +1096,9 @@ proxies:
     cipher: auto
     uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_4
+  - name: 🇺🇸[openproxylist.com] vmess-US_7
     port: 443
-    server: 141.101.122.76
+    server: 104.21.9.236
     type: vmess
     network: ws
     tls: true
@@ -828,26 +1120,9 @@ proxies:
     udp: true
     password: 0zyDRZ1XmNXaaCAN7KEA8a
     cipher: chacha20-ietf-poly1305
-  - name: 🇸🇬[openproxylist.com] vmess-SG_4
-    port: 2095
-    server: apivgbndf_cdn.hfhfb.homes
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=512
-      headers:
-        host: sgcdn2.fask511.cfd
-    cipher: auto
-    uuid: 200d3219-285b-4eeb-9bec-941268c71d21
-    alterId: 0
-  - name: 🇩🇪[openproxylist.com] vmess-DE_2
+  - name: 🇩🇪[openproxylist.com] vmess-DE_9
     port: 443
-    server: 104.20.23.16
+    server: 104.21.226.237
     type: vmess
     network: grpc
     tls: true
@@ -865,7 +1140,7 @@ proxies:
     udp: true
     password: BoiX102924
     cipher: aes-256-gcm
-  - name: 🇫🇷[openproxylist.com] vmess-FR_4
+  - name: 🇫🇷[openproxylist.com] vmess-FR_7
     port: 443
     server: gt021.bestforxray.buzz
     type: vmess
@@ -882,40 +1157,40 @@ proxies:
     cipher: auto
     uuid: c1fd780a-3408-4f48-a932-5832a28ce9f6
     alterId: 0
-  - name: 🇩🇪[openproxylist.com] vmess-DE_3
-    port: 2096
-    server: 104.16.61.8
+  - name: 🇩🇪[openproxylist.com] vmess-DE_10
+    port: 443
+    server: 104.21.74.239
     type: vmess
     network: ws
     tls: true
     udp: true
     version: "2"
-    servername: 7whrapid-river-a083.sisay70779.workers.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /afrhms07.xfixedfloat.cfd/linkws
-      headers:
-        host: 7whrapid-river-a083.sisay70779.workers.dev
-    cipher: auto
-    uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
-    alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_5
-    port: 443
-    server: hms24.ivideos.sbs
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    servername: ""
+    servername: afrhms07.xfixedfloat.cfd
     skip-cert-verify: true
     ws-opts:
       path: /linkws
       headers:
-        host: ivideos.sbs
+        host: afrhms07.xfixedfloat.cfd
     cipher: auto
-    uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca
+    uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_6
+  - name: 🇩🇪[openproxylist.com] vmess-DE_11
+    port: 2086
+    server: cvs-deo.shopeemobile.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /afrhms07.xfixedfloat.cfd/linkws
+      headers:
+        host: vpnsupportfast.vpnsuortfast.workers.dev
+    cipher: auto
+    uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353
+    alterId: 0
+  - name: 🇺🇸[openproxylist.com] vmess-US_8
     port: 2087
     server: 104.16.67.38
     type: vmess
@@ -932,14 +1207,6 @@ proxies:
     cipher: auto
     uuid: 950db6aa-4926-4616-816e-ec0312dcb87b
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] trojan-US_3
-    port: 443
-    server: sure-mutt.sunbeam921.monster
-    type: trojan
-    udp: true
-    sni: sure-mutt.sunbeam921.monster
-    password: "3672449442956713984"
-    skip-cert-verify: true
   - name: 🇺🇸[openproxylist.com] ss-US_7
     port: 1723
     server: 167.88.62.50
@@ -947,9 +1214,9 @@ proxies:
     udp: true
     password: Gru.a-XgKzY+=Nl_
     cipher: chacha20-ietf-poly1305
-  - name: 🇫🇷[openproxylist.com] vmess-FR_5
+  - name: 🇫🇷[openproxylist.com] vmess-FR_8
     port: 443
-    server: hms08.gwdef.sbs
+    server: 172.67.244.191
     type: vmess
     network: ws
     tls: true
@@ -964,9 +1231,9 @@ proxies:
     cipher: auto
     uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_7
+  - name: 🇺🇸[openproxylist.com] vmess-US_9
     port: 443
-    server: 172.67.219.194
+    server: 104.21.24.170
     type: vmess
     network: ws
     tls: true
@@ -981,9 +1248,9 @@ proxies:
     cipher: auto
     uuid: b321fd5d-e6ec-4293-a644-164e3885f52e
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_8
+  - name: 🇺🇸[openproxylist.com] vmess-US_10
     port: 443
-    server: 104.21.83.108
+    server: zula.ir
     type: vmess
     network: ws
     tls: true
@@ -998,7 +1265,7 @@ proxies:
     cipher: auto
     uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a
     alterId: 0
-  - name: 🇺🇸[openproxylist.com] trojan-US_4
+  - name: 🇺🇸[openproxylist.com] trojan-US_3
     port: 443
     server: 166.1.227.165
     type: trojan
@@ -1007,134 +1274,45 @@ proxies:
     sni: champion-dog.lab300.lat
     password: "3672449442956713984"
     skip-cert-verify: false
-  - name: 🇳🇱[openproxylist.com] ss-NL_15
+  - name: 🇺🇸[openproxylist.com] vmess-US_11
+    port: 443
+    server: glweidf.cfd
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: glweidf.cfd
+    cipher: auto
+    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
+    alterId: 0
+  - name: 🇩🇪[openproxylist.com] vmess-DE_12
+    port: 2086
+    server: 104.16.68.38
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /glweidf.sbs/linkws
+      headers:
+        host: rough-wildflower-0b5e.zemel-yesenia1720.workers.dev
+    cipher: auto
+    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
+    alterId: 0
+  - name: 🇳🇱[openproxylist.com] ss-NL_16
     port: 51584
     server: 89.23.103.21
     type: ss
     udp: true
     password: oYQ8JwEldYn4KT2gfZ6eNl
     cipher: chacha20-ietf-poly1305
-  - name: 🇫🇷[openproxylist.com] vmess-FR_6
-    port: 8880
-    server: 104.16.68.38
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linde06.indiavideo.sbs/linkws
-      headers:
-        host: subhk.osafari599.workers.dev
-    cipher: auto
-    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    alterId: 0
-  - name: 🇫🇷[openproxylist.com] vmess-FR_7
-    port: 443
-    server: 188.114.97.3
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: afrhms16v.bestxray.buzz
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: afrhms16v.bestxray.buzz
-    cipher: auto
-    uuid: f584de15-2034-4170-a723-f48c2bae5e0f
-    alterId: 0
-  - name: 🇩🇪[openproxylist.com] vmess-DE_4
-    port: 443
-    server: 172.67.207.26
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: glweidf.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: glweidf.sbs
-    cipher: auto
-    uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-    alterId: 0
-  - name: 🇺🇸[openproxylist.com] vmess-US_9
-    port: 443
-    server: 172.67.220.83
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: linja05.hwcar.sbs
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: linja05.hwcar.sbs
-    cipher: auto
-    uuid: 39cec18f-a439-427c-9a4e-aeb6fcdf6f53
-    alterId: 0
-  - name: 🇩🇪[openproxylist.com] vmess-DE_5
-    port: 443
-    server: 173.245.59.8
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: 77h2quiet-dream-5c34.foratay741.workers.dev
-    skip-cert-verify: true
-    ws-opts:
-      path: /glweidf.cfd/linkws
-      headers:
-        host: 77h2quiet-dream-5c34.foratay741.workers.dev
-    cipher: auto
-    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-    alterId: 0
-  - name: 🇺🇸[openproxylist.com] ss-US_8
-    port: 8009
-    server: 38.110.1.17
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] ss-US_9
-    port: 5499
-    server: 69.50.95.165
-    type: ss
-    udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
-  - name: 🇳🇴[openproxylist.com] ss-NO
-    port: 17708
-    server: 46.29.238.186
-    type: ss
-    udp: true
-    password: fxxn5cJIe42ivUvnStDnaE
-    cipher: chacha20-ietf-poly1305
-  - name: 🇫🇷[openproxylist.com] vmess-FR_8
-    port: 8880
-    server: 104.16.68.38
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /linde06.indiavideo.sbs/linkws
-      headers:
-        host: subhk.osafari599.workers.dev
-    cipher: auto
-    uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-    alterId: 0
   - name: 🇫🇷[openproxylist.com] vmess-FR_9
     port: 8880
     server: 104.16.68.38
@@ -1151,185 +1329,87 @@ proxies:
     cipher: auto
     uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
     alterId: 0
-  - name: 🇫🇷[openproxylist.com] vmess-FR_10
-    port: 443
-    server: obdii.cfd
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: obdii.cfd
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: obdii.cfd
-    cipher: auto
-    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-    alterId: 0
-  - name: 🇺🇸[openproxylist.com] ss-US_10
-    port: 3389
-    server: 69.50.92.71
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇦🇪[openproxylist.com] ss-AE
-    port: 51348
-    server: 176.97.67.144
-    type: ss
-    udp: true
-    password: oXhqJGR81EyNHM7ZnrsRlqbGSS4E9V4W8JYGMrR26NcNUBvb
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸[openproxylist.com] ss-US_11
-    port: 2375
-    server: 38.91.101.11
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] vmess-US_10
-    port: 443
-    server: gUoAsdsoGoPmHynEMiFyeNezJZuxjIVlWwLYB.roxifa.ir
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: fJhKgbWeAxZzHFoYkndtmMOBwuRqDP.roxifa.ir
-    skip-cert-verify: true
-    ws-opts:
-      path: /rafa?ed=2048
-      headers:
-        host: ""
-    cipher: auto
-    uuid: ebe42d03-19ee-4491-a5d9-9e8192fa038e
-    alterId: 0
-  - name: 🇺🇸[openproxylist.com] ss-US_12
-    port: 8119
-    server: 38.75.137.105
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] ss-US_13
-    port: 2376
-    server: 139.64.165.230
-    type: ss
-    udp: true
-    password: faBAoD54k87UJG7
-    cipher: aes-256-gcm
-  - name: 🇺🇸[openproxylist.com] vmess-US_11
-    port: 443
-    server: 104.21.4.6
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: glweidf.cfd
-    skip-cert-verify: true
-    ws-opts:
-      path: /linkws
-      headers:
-        host: glweidf.cfd
-    cipher: auto
-    uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-    alterId: 0
-  - name: 🇨🇦[openproxylist.com] ss-CA_1
-    port: 8388
-    server: 146.19.106.89
-    type: ss
-    udp: true
-    password: ZGUzZGUy
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸[openproxylist.com] ss-US_14
-    port: 8119
-    server: 69.50.95.53
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇨🇦[openproxylist.com] ss-CA_2
-    port: 990
-    server: 64.74.163.130
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇭🇺[openproxylist.com] ss-HU
-    port: 990
-    server: 91.219.237.102
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1339,116 +1419,116 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1458,116 +1538,116 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1577,115 +1657,115 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1695,115 +1775,115 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1813,115 +1893,115 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -1931,51 +2011,35 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1998,65 +2062,81 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇯🇵_JP_日本
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
       - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰_1
+      - 🇬🇧_GB_英国
+      - 🇺🇸_US_美国_7
+      - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_11
       - 🇨🇳_CN_中国->🇩🇪_DE_德国
-      - 🇺🇸_US_美国_13
-      - 🇬🇧_GB_英国->🇷🇺_RU_俄罗斯
-      - 🇳🇱_NL_荷兰_2
-      - 🇺🇸_US_美国_14
-      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇺🇸_US_美国_12
+      - 🇨🇦[openproxylist.com] trojan-CA_1
       - 🇫🇷[openproxylist.com] vmess-FR_1
       - 🇺🇸[openproxylist.com] trojan-US_1
-      - 🇨🇭[openproxylist.com] ss-CH_1
-      - 🇮🇪[openproxylist.com] trojan-IE_1
-      - 🇮🇪[openproxylist.com] trojan-IE_2
-      - 🇨🇭[openproxylist.com] ss-CH_2
-      - 🇸🇪[openproxylist.com] trojan-SE_1
-      - 🇨🇦[openproxylist.com] trojan-CA
-      - 🇮🇪[openproxylist.com] trojan-IE_3
-      - 🇺🇸[openproxylist.com] ss-US_1
-      - 🇺🇸[openproxylist.com] ss-US_2
       - 🇺🇸[openproxylist.com] vmess-US_1
-      - 🇺🇸[openproxylist.com] trojan-US_2
-      - 🇺🇸[openproxylist.com] vmess-US_2
-      - 🇬🇧[openproxylist.com] trojan-GB_2
-      - 🇸🇪[openproxylist.com] trojan-SE_2
-      - 🇮🇪[openproxylist.com] trojan-IE_4
-      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇩🇪[openproxylist.com] vmess-DE_1
+      - 🇸🇪[openproxylist.com] vmess-SE
+      - 🇩🇪[openproxylist.com] vmess-DE_2
+      - 🇱🇺[openproxylist.com] ss-LU
       - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇸🇪[openproxylist.com] trojan-SE_3
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇫🇷[openproxylist.com] trojan-FR_1
-      - 🇫🇷[openproxylist.com] trojan-FR_2
-      - 🇫🇷[openproxylist.com] trojan-FR_3
-      - 🇬🇧[openproxylist.com] trojan-GB_4
-      - 🇫🇷[openproxylist.com] trojan-FR_4
-      - 🇹🇷[openproxylist.com] vmess-TR
-      - 🇺🇸[openproxylist.com] ss-US_3
-      - 🇺🇸[openproxylist.com] ss-US_4
-      - 🇸🇬[openproxylist.com] vmess-SG_1
-      - 🇸🇬[openproxylist.com] vmess-SG_2
-      - 🇭🇰[openproxylist.com] vmess-HK
-      - 🇸🇬[openproxylist.com] vmess-SG_3
-      - 🇰🇷[openproxylist.com] ss-KR
-      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇩🇪[openproxylist.com] vmess-DE_3
+      - 🇺🇸[openproxylist.com] vmess-US_2
       - 🇫🇷[openproxylist.com] vmess-FR_2
       - 🇬🇧[openproxylist.com] vmess-GB
-      - 🇩🇪[openproxylist.com] ss-DE
-      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇮🇪[openproxylist.com] trojan-IE_1
+      - 🇨🇦[openproxylist.com] trojan-CA_2
+      - 🇸🇪[openproxylist.com] trojan-SE_1
+      - 🇬🇧[openproxylist.com] trojan-GB_1
+      - 🇩🇪[openproxylist.com] trojan-DE_2
+      - 🇵🇱[openproxylist.com] vmess-PL
+      - 🇸🇬[openproxylist.com] vmess-SG_1
+      - 🇫🇷[openproxylist.com] trojan-FR_1
+      - 🇫🇷[openproxylist.com] trojan-FR_2
+      - 🇬🇧[openproxylist.com] trojan-GB_2
+      - 🇬🇧[openproxylist.com] trojan-GB_3
+      - 🇮🇪[openproxylist.com] trojan-IE_2
+      - 🇫🇷[openproxylist.com] trojan-FR_3
+      - 🇮🇪[openproxylist.com] trojan-IE_3
+      - 🇫🇷[openproxylist.com] trojan-FR_4
+      - 🇸🇪[openproxylist.com] trojan-SE_2
+      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇺🇸[openproxylist.com] ss-US_1
+      - 🇨🇭[openproxylist.com] ss-CH_1
+      - 🇮🇪[openproxylist.com] ss-IE_1
+      - 🇸🇪[openproxylist.com] trojan-SE_3
+      - 🇻🇳[openproxylist.com] trojan-VN
+      - 🇹🇼[openproxylist.com] trojan-TW
+      - 🇯🇵[openproxylist.com] vmess-JP
+      - 🇭🇰[openproxylist.com] vmess-HK_1
+      - 🇺🇸[openproxylist.com] trojan-US_2
+      - 🇮🇪[openproxylist.com] ss-IE_2
+      - 🇬🇧[openproxylist.com] ss-GB
+      - 🇺🇸[openproxylist.com] ss-US_2
+      - 🇨🇭[openproxylist.com] ss-CH_2
       - 🇨🇭[openproxylist.com] ss-CH_3
+      - 🇺🇸[openproxylist.com] ss-US_3
+      - 🇺🇸[openproxylist.com] ss-US_4
+      - 🇺🇸[openproxylist.com] vmess-US_3
+      - 🇹🇷[openproxylist.com] vmess-TR
+      - 🇭🇰[openproxylist.com] vmess-HK_2
+      - 🇸🇬[openproxylist.com] vmess-SG_2
+      - 🇸🇬[openproxylist.com] vmess-SG_3
+      - 🇺🇸[openproxylist.com] vmess-US_4
+      - 🇩🇪[openproxylist.com] vmess-DE_4
+      - 🇰🇷[openproxylist.com] ss-KR
+      - 🇫🇮[openproxylist.com] vmess-FI
+      - 🇫🇷[openproxylist.com] vmess-FR_3
+      - 🇩🇪[openproxylist.com] ss-DE
+      - 🇺🇸[openproxylist.com] vmess-US_5
+      - 🇨🇭[openproxylist.com] ss-CH_4
       - 🇺🇸[openproxylist.com] ss-US_5
       - 🇺🇸[openproxylist.com] ss-US_6
-      - 🇨🇭[openproxylist.com] ss-CH_4
-      - 🇯🇵[openproxylist.com] vmess-JP
-      - 🇮🇪[openproxylist.com] ss-IE
-      - 🇳🇱[openproxylist.com] ss-NL_1
+      - 🇨🇭[openproxylist.com] ss-CH_5
+      - 🇮🇪[openproxylist.com] ss-IE_3
+      - 🇨🇾[openproxylist.com] trojan-CY
+      - 🇩🇪[openproxylist.com] vmess-DE_5
+      - 🇫🇷[openproxylist.com] vmess-FR_4
+      - 🇫🇷[openproxylist.com] vmess-FR_5
       - 🇳🇱[openproxylist.com] ss-NL_2
       - 🇳🇱[openproxylist.com] ss-NL_3
       - 🇳🇱[openproxylist.com] ss-NL_4
@@ -2066,51 +2146,35 @@ proxy-groups:
       - 🇳🇱[openproxylist.com] ss-NL_8
       - 🇳🇱[openproxylist.com] ss-NL_9
       - 🇳🇱[openproxylist.com] ss-NL_10
+      - 🇩🇪[openproxylist.com] vmess-DE_6
+      - 🇺🇸[openproxylist.com] vmess-US_6
       - 🇳🇱[openproxylist.com] ss-NL_11
       - 🇳🇱[openproxylist.com] ss-NL_12
       - 🇳🇱[openproxylist.com] ss-NL_13
       - 🇳🇱[openproxylist.com] ss-NL_14
-      - 🇩🇪[openproxylist.com] vmess-DE_1
-      - 🇹🇷[openproxylist.com] ss-TR
-      - 🇫🇷[openproxylist.com] vmess-FR_3
-      - 🇺🇸[openproxylist.com] vmess-US_4
-      - 🇷🇺[openproxylist.com] ss-RU
-      - 🇸🇬[openproxylist.com] vmess-SG_4
-      - 🇩🇪[openproxylist.com] vmess-DE_2
-      - 🇸🇬[openproxylist.com] ss-SG
-      - 🇫🇷[openproxylist.com] vmess-FR_4
-      - 🇩🇪[openproxylist.com] vmess-DE_3
-      - 🇺🇸[openproxylist.com] vmess-US_5
-      - 🇺🇸[openproxylist.com] vmess-US_6
-      - 🇺🇸[openproxylist.com] trojan-US_3
-      - 🇺🇸[openproxylist.com] ss-US_7
-      - 🇫🇷[openproxylist.com] vmess-FR_5
-      - 🇺🇸[openproxylist.com] vmess-US_7
-      - 🇺🇸[openproxylist.com] vmess-US_8
-      - 🇺🇸[openproxylist.com] trojan-US_4
       - 🇳🇱[openproxylist.com] ss-NL_15
+      - 🇩🇪[openproxylist.com] vmess-DE_7
+      - 🇹🇷[openproxylist.com] ss-TR
+      - 🇩🇪[openproxylist.com] vmess-DE_8
+      - 🇨🇭[openproxylist.com] vmess-CH
       - 🇫🇷[openproxylist.com] vmess-FR_6
+      - 🇺🇸[openproxylist.com] vmess-US_7
+      - 🇷🇺[openproxylist.com] ss-RU
+      - 🇩🇪[openproxylist.com] vmess-DE_9
+      - 🇸🇬[openproxylist.com] ss-SG
       - 🇫🇷[openproxylist.com] vmess-FR_7
-      - 🇩🇪[openproxylist.com] vmess-DE_4
-      - 🇺🇸[openproxylist.com] vmess-US_9
-      - 🇩🇪[openproxylist.com] vmess-DE_5
-      - 🇺🇸[openproxylist.com] ss-US_8
-      - 🇺🇸[openproxylist.com] ss-US_9
-      - 🇳🇴[openproxylist.com] ss-NO
+      - 🇩🇪[openproxylist.com] vmess-DE_10
+      - 🇩🇪[openproxylist.com] vmess-DE_11
+      - 🇺🇸[openproxylist.com] vmess-US_8
+      - 🇺🇸[openproxylist.com] ss-US_7
       - 🇫🇷[openproxylist.com] vmess-FR_8
-      - 🇫🇷[openproxylist.com] vmess-FR_9
-      - 🇫🇷[openproxylist.com] vmess-FR_10
-      - 🇺🇸[openproxylist.com] ss-US_10
-      - 🇦🇪[openproxylist.com] ss-AE
-      - 🇺🇸[openproxylist.com] ss-US_11
+      - 🇺🇸[openproxylist.com] vmess-US_9
       - 🇺🇸[openproxylist.com] vmess-US_10
-      - 🇺🇸[openproxylist.com] ss-US_12
-      - 🇺🇸[openproxylist.com] ss-US_13
+      - 🇺🇸[openproxylist.com] trojan-US_3
       - 🇺🇸[openproxylist.com] vmess-US_11
-      - 🇨🇦[openproxylist.com] ss-CA_1
-      - 🇺🇸[openproxylist.com] ss-US_14
-      - 🇨🇦[openproxylist.com] ss-CA_2
-      - 🇭🇺[openproxylist.com] ss-HU
+      - 🇩🇪[openproxylist.com] vmess-DE_12
+      - 🇳🇱[openproxylist.com] ss-NL_16
+      - 🇫🇷[openproxylist.com] vmess-FR_9
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
