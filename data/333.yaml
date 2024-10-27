@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-10-25 17:49:05
+# 生成时间：2024-10-27 08:38:21
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -59,183 +59,262 @@ tun:
     - 1.0.0.1
 proxies:
   - name: 🇺🇸_US_美国_1
-    port: 8000
+    port: 443
+    server: 23.157.40.89
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_2
+    port: 8882
+    server: 38.75.136.33
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_3
+    port: 8881
+    server: 23.157.40.89
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4
+    port: 9102
+    server: 69.50.92.99
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_5
+    port: 2375
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_6
+    port: 6679
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_1
+    port: 7001
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_7
+    port: 5500
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_8
+    port: 2376
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_9
+    port: 8091
+    server: 38.110.1.51
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_10
+    port: 8008
     server: 38.75.137.42
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
+    password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_2
-    port: 5601
-    server: 38.68.134.9
+  - name: 🇺🇸_US_美国_11
+    port: 8882
+    server: 69.50.92.99
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 5600
-    server: 38.114.114.46
+  - name: 🇺🇸_US_美国_12
+    port: 443
+    server: 52.43.127.109
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 8000
-    server: 54.37.12.70
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_13
+    port: 8118
+    server: 38.114.114.69
     type: ss
     udp: true
-    password: KixLvKzwjekG00rm
+    password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
+  - name: 🇺🇸_US_美国_14
+    port: 8091
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国_2
+    port: 8119
+    server: 145.239.6.202
+    type: ss
+    udp: true
+    password: cdBIDV42DCwnfIN
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_15
     port: 8080
-    server: 38.86.135.211
+    server: 23.157.40.113
     type: ss
     udp: true
     password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
+  - name: 🇺🇸_US_美国_16
+    port: 5600
+    server: 38.75.136.33
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_17
+    port: 5500
+    server: 139.64.164.15
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_18
+    port: 8881
+    server: 38.75.137.42
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_19
+    port: 5498
+    server: 15.204.87.217
+    type: ss
+    udp: true
+    password: lGqs95QkFHo2NV
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_20
+    port: 5601
+    server: 23.157.40.113
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_21
+    port: 443
+    server: 149.22.95.183
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 🇺🇸_US_美国_22
     port: 7306
     server: 167.88.61.111
     type: ss
     udp: true
     password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 8882
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 5500
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 3306
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_10
-    port: 6697
-    server: 38.114.114.46
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 2098
-    server: f41.maryam1500.top
-    type: vmess
-    network: http
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    http-opts: {}
-    cipher: auto
-    uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-    alterId: 0
-  - name: 🇺🇸_US_美国_11
+  - name: 🇺🇸_US_美国_23
     port: 5600
-    server: 38.68.134.9
+    server: 15.204.87.217
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_12
-    port: 8118
-    server: 38.114.114.46
-    type: ss
+  - name: 未知
+    port: 13021
+    server: naiu-us.05vr9nyqg5.download
+    type: trojan
     udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_13
-    port: 8080
-    server: 38.114.114.46
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_14
-    port: 5600
-    server: 38.75.137.42
+    sni: cloudflare.node-ssl.cdn-alibaba.com
+    password: 5b4becce-5739-483f-97ec-68b81a855d68
+    skip-cert-verify: false
+  - name: 🇬🇧_GB_英国_3
+    port: 5000
+    server: 145.239.6.202
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 2098
-    server: 147.45.51.16
-    type: vmess
-    network: http
-    udp: true
-    sni: ""
-    skip-cert-verify: true
-    http-opts: {}
-    cipher: auto
-    uuid: 83876222-64a4-4912-aa18-b7d9d34959de
-    alterId: 0
-  - name: 🇳🇱_NL_荷兰
-    port: 57456
-    server: 45.144.48.63
-    type: ss
-    udp: true
-    password: d3837224ed465f00
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_15
-    port: 5500
-    server: 38.114.114.46
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_16
-    port: 8118
-    server: 23.166.88.221
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_18
-    port: 5003
-    server: 38.75.137.42
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_19
-    port: 7001
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_21
-    port: 8009
-    server: 38.68.134.9
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_22
+  - name: 🇺🇸_US_美国_24
     port: 9101
-    server: 23.150.152.53
+    server: 23.157.40.89
     type: ss
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_23
+  - name: 🇺🇸_US_美国_25
     port: 8090
-    server: 38.110.1.51
+    server: 23.157.40.113
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
+  - name: 高性价比机场:https://kfyun.uk
+    port: 443
+    server: 127.0.0.1
+    type: ss
+    udp: true
+    password: 6601fb90e9b3
+    cipher: aes-128-gcm
+  - name: 俄罗斯+v2rayfree.eu.org
+    port: 54170
+    server: 185.242.86.156
+    type: ss
+    udp: true
+    password: 36ZCHeabUSfKjfQEvJ4HDV
+    cipher: chacha20-ietf-poly1305
+  - name: 波兰+v2rayfree.eu.org
+    port: 40368
+    server: 193.243.147.128
+    type: ss
+    udp: true
+    password: 7BcLdsO1WweoGD0X
+    cipher: aes-256-gcm
+  - name: 美国 CloudFlare节点_1
+    port: 8080
+    server: www.darkroom.lol
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: www.darkroom.lol
+    cipher: auto
+    uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
+    alterId: 0
+  - name: 美国 CloudFlare节点_2
+    port: 8880
+    server: server31.beheshtbaneh.com
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: server31.beheshtbaneh.com
+    cipher: auto
+    uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
+    alterId: 0
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -248,24 +327,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -278,24 +367,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -308,24 +407,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -337,24 +446,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -366,24 +485,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -395,24 +524,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -441,24 +580,34 @@ proxy-groups:
       - 🇺🇸_US_美国_4
       - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
+      - 🇬🇧_GB_英国_1
       - 🇺🇸_US_美国_7
       - 🇺🇸_US_美国_8
       - 🇺🇸_US_美国_9
       - 🇺🇸_US_美国_10
-      - 🇷🇺_RU_俄罗斯_1
       - 🇺🇸_US_美国_11
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇳🇱_NL_荷兰
+      - 🇬🇧_GB_英国_2
       - 🇺🇸_US_美国_15
       - 🇺🇸_US_美国_16
+      - 🇺🇸_US_美国_17
       - 🇺🇸_US_美国_18
       - 🇺🇸_US_美国_19
+      - 🇺🇸_US_美国_20
       - 🇺🇸_US_美国_21
       - 🇺🇸_US_美国_22
       - 🇺🇸_US_美国_23
+      - 未知
+      - 🇬🇧_GB_英国_3
+      - 🇺🇸_US_美国_24
+      - 🇺🇸_US_美国_25
+      - 高性价比机场:https://kfyun.uk
+      - 俄罗斯+v2rayfree.eu.org
+      - 波兰+v2rayfree.eu.org
+      - 美国 CloudFlare节点_1
+      - 美国 CloudFlare节点_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
