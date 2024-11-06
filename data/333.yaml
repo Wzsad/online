@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-06 18:11:48
+# 生成时间：2024-11-06 18:12:42
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -101,7 +101,6 @@ proxies:
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-privatevpns
-    skip-cert-verify: false
     alpn:
       - http/1.1
   - name: 🇩🇪_DE_德国_2
@@ -186,10 +185,7 @@ proxies:
     server: 183.236.51.23
     type: vmess
     network: tcp
-    tls: false
     udp: true
-    version: "2"
-    skip-cert-verify: true
     cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
@@ -215,7 +211,6 @@ proxies:
     udp: true
     sni: trojan.burgerip.co.uk
     password: telegram-id-privatevpns
-    skip-cert-verify: false
     alpn:
       - http/1.1
   - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡_2
@@ -253,59 +248,6 @@ proxies:
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇩🇪[openproxylist.com] vmess-DE
-    port: 443
-    server: discord.vpnsell.beauty
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: discord.vpnsell.beauty
-    skip-cert-verify: true
-    ws-opts:
-      path: /29516/iliya
-      headers:
-        host: discord.vpnsell.beauty
-    cipher: auto
-    uuid: a8ed942c-0c14-4061-89f7-c08b90ebea76
-    alterId: 0
-  - name: 🇬🇧[openproxylist.com] trojan-GB
-    port: 22222
-    server: 3.10.248.69
-    type: trojan
-    network: tcp
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-    alpn:
-      - http/1.1
-  - name: 🇲🇪[openproxylist.com] vmess-ME
-    port: 33026
-    server: 89.169.55.152
-    type: vmess
-    network: ws
-    tls: true
-    udp: true
-    version: "2"
-    servername: socks5tobefree.ydns.eu
-    skip-cert-verify: true
-    ws-opts:
-      path: /dangerzone
-      headers:
-        host: socks5tobefree.ydns.eu
-    cipher: auto
-    uuid: 06053cbe-a299-4934-bca6-0707e1416dc7
-    alterId: 0
-  - name: 🇰🇷[openproxylist.com] trojan-KR
-    port: 45101
-    server: a.522226.xyz
-    type: trojan
-    network: tcp
-    udp: true
-    password: xjN4xcuPGg
-    skip-cert-verify: false
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -338,10 +280,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -374,10 +312,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -410,10 +344,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: 📲 电报信息
     type: select
     proxies:
@@ -445,10 +375,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -480,10 +406,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -515,10 +437,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -567,10 +485,6 @@ proxy-groups:
       - 🇺🇸_US_美国_12
       - 🇺🇸_US_美国_13
       - 🇺🇸_US_美国_14
-      - 🇩🇪[openproxylist.com] vmess-DE
-      - 🇬🇧[openproxylist.com] trojan-GB
-      - 🇲🇪[openproxylist.com] vmess-ME
-      - 🇰🇷[openproxylist.com] trojan-KR
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
