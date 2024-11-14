@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-12 20:53:55
+# 生成时间：2024-11-14 15:13:15
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,351 +58,1130 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国->🇨🇳_CN_中国_1
+  - name: 高性价比机场:https://kfyun.uk
     port: 443
-    server: 52.12.87.156
+    server: 127.0.0.1
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_2
-    port: 3389
-    server: 23.157.40.113
+    password: 6601fb90e9b3
+    cipher: aes-128-gcm
+  - name: 0|--1
+    port: 8882
+    server: 69.50.92.99
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_3
-    port: 5500
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 9102
-    server: 23.157.40.89
-    type: ss
-    udp: true
-    password: e4FCWrgpkji3QY
-    cipher: aes-256-gcm
-  - name: 🇨🇦_CA_加拿大->🇺🇸_US_美国
-    port: 22222
-    server: 52.60.59.39
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-directvpn
-  - name: 🇺🇸_US_美国_6
-    port: 6697
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_7
-    port: 7307
-    server: 23.157.40.113
+  - name: 0|--2
+    port: 7306
+    server: 38.68.134.202
     type: ss
     udp: true
     password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_8
-    port: 6379
-    server: 23.157.40.89
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 9090
-    server: 23.157.40.89
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_11
-    port: 8008
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: XKFKl2rULjIp74
-    cipher: aes-256-gcm
-  - name: 🇺🇦_UA_乌克兰
-    port: 443
-    server: 37.19.198.160
-    type: ss
-    udp: true
-    password: shadowsocks
-    cipher: aes-128-gcm
-  - name: 🇩🇪_DE_德国_1
-    port: 8080
-    server: 45.87.175.181
-    type: ss
-    udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_13
-    port: 7002
-    server: 23.157.40.89
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_14
+  - name: 0|--3
     port: 8090
-    server: 54.37.12.70
+    server: 38.121.43.204
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
+  - name: 0|--4
+    port: 2376
+    server: 38.75.136.117
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: 0|--5
+    port: 8080
+    server: 107.155.57.51
+    type: ss
+    udp: true
+    password: 14fFPrbezE3HDZzsMOr6
+    cipher: rc4-md5
+  - name: 0|--6
+    port: 443
+    server: 54.187.244.22
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 0|--7
+    port: 7001
+    server: 38.68.134.202
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 0|--10
+    port: 443
+    server: 212.102.53.195
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 0|--11
     port: 8118
-    server: 23.157.40.113
+    server: 38.121.43.204
     type: ss
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_16
-    port: 6379
-    server: 23.157.40.113
-    type: ss
-    udp: true
-    password: zDNVedRFPQexG9v
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_17
-    port: 7306
-    server: 54.37.12.70
-    type: ss
-    udp: true
-    password: FoOiGlkAA9yPEGP
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_18
-    port: 443
-    server: 54.202.75.206
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_19
-    port: 443
-    server: 54.69.144.178
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_20
-    port: 8000
-    server: 54.37.12.70
-    type: ss
-    udp: true
-    password: KixLvKzwjekG00rm
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_21
+  - name: 0,13|🇺🇸 美国3|@ripaojiedian
     port: 443
     server: 156.146.38.168
     type: ss
     udp: true
     password: shadowsocks
     cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_23
-    port: 2375
-    server: 23.157.40.113
+  - name: 0,13|🇺🇸 美国|@ripaojiedian
+    port: 443
+    server: 212.102.47.131
     type: ss
     udp: true
-    password: faBAoD54k87UJG7
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 0|--15
+    port: 443
+    server: 149.22.95.183
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 0|--18
+    port: 9102
+    server: 69.50.92.99
+    type: ss
+    udp: true
+    password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国_2
-    port: 8080
-    server: 45.87.175.166
+  - name: 0|--22
+    port: 8881
+    server: 69.50.92.99
     type: ss
     udp: true
-    password: 4a2rfixophdjffa8KVA4Aa
+    password: kDWvXYZoTBcGkC4
+    cipher: aes-256-gcm
+  - name: 0|--36
+    port: 443
+    server: 38.75.137.121
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: 38.75.137.121
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkvws
+      headers:
+        host: 38.75.137.121
+    cipher: auto
+    uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+    alterId: 1
+  - name: 0|--42
+    port: 443
+    server: 188.114.96.3
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: obdii.cfd
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: 0|--45
+    port: 443
+    server: 188.114.97.2
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: obdii.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: obdii.cfd
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: 0|--46
+    port: 443
+    server: 172.67.175.56
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: obdii.cfd
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: 0|--47
+    port: 443
+    server: 185.146.173.59
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: obdii.cfd
+    skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: obdii.cfd
+    cipher: auto
+    uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
+    alterId: 0
+  - name: "3,4,5|d*********g.com_0 #2"
+    port: 8443
+    server: 104.21.238.200
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: http1.9290254.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: http1.9290254.xyz
+    cipher: auto
+    uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+    alterId: 0
+  - name: "3,4,5|d*********g.com_1 #2"
+    port: 8443
+    server: 104.21.238.201
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: http1.9290254.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: http1.9290254.xyz
+    cipher: auto
+    uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+    alterId: 0
+  - name: "3,4,5|d*********g.com_2 #2"
+    port: 8443
+    server: 104.21.238.202
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: http1.9290254.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: http1.9290254.xyz
+    cipher: auto
+    uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+    alterId: 0
+  - name: "3,4,5|d*********g.com_3 #2"
+    port: 8443
+    server: 104.21.238.203
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: http1.9290254.xyz
+    skip-cert-verify: true
+    ws-opts:
+      path: github.com/Alvin9999
+      headers:
+        host: http1.9290254.xyz
+    cipher: auto
+    uuid: 9201ffaa-6ca3-4f57-8b1f-266a2f390e43
+    alterId: 0
+  - name: 13|🇭🇰 香港|@ripaojiedian
+    port: 15013
+    server: 120.241.45.50
+    type: ss
+    udp: true
+    password: Z4X7VYXFPCFSSWXP
+    cipher: aes-256-gcm
+  - name: 13|🇭🇰 香港2|@ripaojiedian
+    port: 56601
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 13|🇭🇰 香港3|@ripaojiedian
+    port: 15002
+    server: 120.241.45.50
+    type: ss
+    udp: true
+    password: 99NH00E1KE8IF6WO
+    cipher: aes-256-gcm
+  - name: 13|🇭🇰 香港4|@ripaojiedian
+    port: 27807
+    server: osijdjxmd15.yunxiangvip.mom
+    type: ss
+    udp: true
+    password: 00f6f0c8-94f2-4963-95f2-2b0c38dd1ade
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_24
-    port: 5498
-    server: 23.157.40.89
+  - name: 13|🇭🇰 香港5|@ripaojiedian
+    port: 2902
+    server: 143.92.42.65
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+    alterId: 0
+  - name: 13|🇭🇰 香港X|@ripaojiedian
+    port: 51704
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 13|🇹🇼 台湾|@ripaojiedian
+    port: 38793
+    server: lsjd.yunxiang8.mom
     type: ss
     udp: true
-    password: lGqs95QkFHo2NV
-    cipher: aes-256-gcm
+    password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+    cipher: aes-128-gcm
+  - name: 13|🇯🇵 日本|@ripaojiedian
+    port: 43684
+    server: lsjd.yunxiang8.mom
+    type: ss
+    udp: true
+    password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+    cipher: aes-128-gcm
+  - name: 13|🇯🇵 日本2|@ripaojiedian
+    port: 443
+    server: 149.22.87.240
+    type: ss
+    udp: true
+    password: shadowsocks
+    cipher: aes-128-gcm
+  - name: 13|🇯🇵 日本3|@ripaojiedian
+    port: 443
+    server: demise.meijireform.com
+    type: trojan
+    udp: true
+    sni: demise.meijireform.com
+    password: 3FxORlYgZBNwDqxCj43X6el8I3EapZSpeD9S5zCF0A2cy8OSCYADn7au3KaRyT
+    skip-cert-verify: false
+  - name: 13|🇰🇷 韩国2|@ripaojiedian
+    port: 50111
+    server: 45.94.68.252
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+    alterId: 0
+  - name: 13|🇸🇬 新加坡|@ripaojiedian
+    port: 53062
+    server: 183.232.159.51
+    type: ss
+    udp: true
+    password: 173c0893-5ab2-4223-88ce-b6e8d512306b
+    cipher: chacha20-ietf-poly1305
+  - name: 13|🇸🇬 新加坡2|@ripaojiedian
+    port: 40002
+    server: 183.236.48.163
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 13|🇸🇬 新加坡3|@ripaojiedian
+    port: 39782
+    server: lsjd.yunxiang8.mom
+    type: ss
+    udp: true
+    password: bd12f79e-3209-4970-83cd-5e1f3526ff51
+    cipher: chacha20-ietf-poly1305
+  - name: 13|🇺🇸 美国4|@ripaojiedian
+    port: 52112
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 13|🇰🇷 韩国特殊|@ripaojiedian
+    port: 443
+    server: 47.129.50.131
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 13|🇯🇵 日本特殊|@ripaojiedian
+    port: 443
+    server: 43.201.254.211
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 13|🇸🇬 狮城特殊|@ripaojiedian
+    port: 443
+    server: 43.207.113.77
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 14|香港|@ripaojiedian
+    port: 15013
+    server: 120.241.45.50
+    type: ss
+    udp: true
+    password: //YWVzLTI1Ni1nY206WjRYN1ZZWEZQQ0ZTU1dYUA
+    cipher: ss
+  - name: 14|香港2|@ripaojiedian
+    port: 56601
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 14|香港3|@ripaojiedian
+    port: 15002
+    server: 120.241.45.50
+    type: ss
+    udp: true
+    password: //YWVzLTI1Ni1nY206OTlOSDAwRTFLRThJRjZXTw
+    cipher: ss
+  - name: 14|香港4|@ripaojiedian
+    port: 27807
+    server: osijdjxmd15.yunxiangvip.mom
+    type: ss
+    udp: true
+    password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTowMGY2ZjBjOC05NGYyLTQ5NjMtOTVmMi0yYjBjMzhkZDFhZGU
+    cipher: ss
+  - name: 14|香港5|@ripaojiedian
+    port: 2902
+    server: 143.92.42.65
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+    alterId: 0
+  - name: 14|香港X|@ripaojiedian
+    port: 51704
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 14|台湾|@ripaojiedian
+    port: 38793
+    server: lsjd.yunxiang8.mom
+    type: ss
+    udp: true
+    password: //YWVzLTEyOC1nY206YmQxMmY3OWUtMzIwOS00OTcwLTgzY2QtNWUxZjM1MjZmZjUx
+    cipher: ss
+  - name: 14|日本|@ripaojiedian
+    port: 43684
+    server: lsjd.yunxiang8.mom
+    type: ss
+    udp: true
+    password: //YWVzLTEyOC1nY206YmQxMmY3OWUtMzIwOS00OTcwLTgzY2QtNWUxZjM1MjZmZjUx
+    cipher: ss
+  - name: 14|日本2|@ripaojiedian
+    port: 443
+    server: 149.22.87.240
+    type: ss
+    udp: true
+    password: //YWVzLTEyOC1nY206c2hhZG93c29ja3M
+    cipher: ss
+  - name: 14|日本3|@ripaojiedian
+    port: 443
+    server: demise.meijireform.com
+    type: trojan
+    udp: true
+    password: 3FxORlYgZBNwDqxCj43X6el8I3EapZSpeD9S5zCF0A2cy8OSCYADn7au3KaRyT
+    skip-cert-verify: false
+  - name: 14|韩国2|@ripaojiedian
+    port: 50111
+    server: 45.94.68.252
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 2b0c2a29-a5f6-4382-b187-a5a424b50e4b
+    alterId: 0
+  - name: 14|新加坡|@ripaojiedian
+    port: 53062
+    server: 183.232.159.51
+    type: ss
+    udp: true
+    password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxNzNjMDg5My01YWIyLTQyMjMtODhjZS1iNmU4ZDUxMjMwNmI
+    cipher: ss
+  - name: 14|新加坡2|@ripaojiedian
+    port: 40002
+    server: 183.236.48.163
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 14|新加坡3|@ripaojiedian
+    port: 39782
+    server: lsjd.yunxiang8.mom
+    type: ss
+    udp: true
+    password: //Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZDEyZjc5ZS0zMjA5LTQ5NzAtODNjZC01ZTFmMzUyNmZmNTE
+    cipher: ss
+  - name: 14|美国|@ripaojiedian
+    port: 443
+    server: 212.102.47.131
+    type: ss
+    udp: true
+    password: //YWVzLTEyOC1nY206c2hhZG93c29ja3M
+    cipher: ss
+  - name: 14|美国3|@ripaojiedian
+    port: 443
+    server: 156.146.38.168
+    type: ss
+    udp: true
+    password: //YWVzLTEyOC1nY206c2hhZG93c29ja3M
+    cipher: ss
+  - name: 14|美国4|@ripaojiedian
+    port: 52112
+    server: 183.236.51.23
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    servername: ""
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 14|韩国特殊|@ripaojiedian
+    port: 443
+    server: 47.129.50.131
+    type: ss
+    udp: true
+    password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+    cipher: ss
+  - name: 14|日本特殊|@ripaojiedian
+    port: 443
+    server: 43.201.254.211
+    type: ss
+    udp: true
+    password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+    cipher: ss
+  - name: 14|狮城特殊|@ripaojiedian
+    port: 443
+    server: 43.207.113.77
+    type: ss
+    udp: true
+    password: //YWVzLTI1Ni1jZmI6YW1hem9uc2tyMDU
+    cipher: ss
+  - name: 15|US_speednode_0055
+    port: 27051
+    server: 103.170.72.129
+    type: trojan
+    network: ws
+    udp: true
+    sni: trojanfree-76s.pages.dev
+    password: auto
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: trojanfree-76s.pages.dev
+  - name: 15|US_speednode_0057
+    port: 443
+    server: 172.64.150.145
+    type: trojan
+    network: ws
+    udp: true
+    sni: mindrOOm-5cz.pAgEs.dEV
+    password: bpb-trojan
+    skip-cert-verify: true
+    ws-opts:
+      path: /trC8BM8bTsAF0AnLYL?ed=2560
+      headers:
+        host: mindrOOm-5cz.pAgEs.dEV
+  - name: 15|US_speednode_0058
+    port: 443
+    server: 172.64.150.145
+    type: trojan
+    network: ws
+    udp: true
+    sni: mindrOOm-5cz.pAgEs.dEV
+    password: bpb-trojan
+    skip-cert-verify: true
+    ws-opts:
+      path: /trC8BM8bTsAF0AnLYL
+      headers:
+        host: mindrOOm-5cz.pAgEs.dEV
+  - name: 15|US_speednode_0061
+    port: 2083
+    server: 172.66.44.141
+    type: trojan
+    network: ws
+    udp: true
+    sni: fB0887ca.BPB-WorkEr-pAnel-e3c.paGes.DeV
+    password: bpb-trojan
+    skip-cert-verify: true
+    ws-opts:
+      path: /trMK2zs2naPJSgJ7Pr?ed=2560
+      headers:
+        host: fB0887ca.BPB-WorkEr-pAnel-e3c.paGes.DeV
+  - name: 15|US_speednode_0067
+    port: 443
+    server: 104.18.37.111
+    type: trojan
+    network: ws
+    udp: true
+    sni: mindrOOm-5cz.pAgEs.dEV
+    password: bpb-trojan
+    skip-cert-verify: true
+    ws-opts:
+      path: /trC8BM8bTsAF0AnLYL?ed=2560
+      headers:
+        host: mindrOOm-5cz.pAgEs.dEV
+  - name: "16|d*********g.com_2 #3"
+    port: 443
+    server: 42.236.73.72
+    type: vmess
+    network: tcp
+    tls: true
+    udp: true
+    version: "2"
+    servername: www.zitian.cn
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+    alterId: 0
+  - name: "3"
+    port: 443
+    server: 42.236.73.72
+    type: trojan
+    udp: true
+    sni: www.zitian.cn
+    password: fuck
+    skip-cert-verify: false
+    alpn:
+      - "http/1.1#16|d*********g.com_3 "
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -425,30 +1204,75 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国->🇨🇳_CN_中国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_5
-      - 🇨🇦_CA_加拿大->🇺🇸_US_美国
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_11
-      - 🇺🇦_UA_乌克兰
-      - 🇩🇪_DE_德国_1
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇺🇸_US_美国_16
-      - 🇺🇸_US_美国_17
-      - 🇺🇸_US_美国_18
-      - 🇺🇸_US_美国_19
-      - 🇺🇸_US_美国_20
-      - 🇺🇸_US_美国_21
-      - 🇺🇸_US_美国_23
-      - 🇩🇪_DE_德国_2
-      - 🇺🇸_US_美国_24
+      - 高性价比机场:https://kfyun.uk
+      - 0|--1
+      - 0|--2
+      - 0|--3
+      - 0|--4
+      - 0|--5
+      - 0|--6
+      - 0|--7
+      - 0|--10
+      - 0|--11
+      - 0,13|🇺🇸 美国3|@ripaojiedian
+      - 0,13|🇺🇸 美国|@ripaojiedian
+      - 0|--15
+      - 0|--18
+      - 0|--22
+      - 0|--36
+      - 0|--42
+      - 0|--45
+      - 0|--46
+      - 0|--47
+      - "3,4,5|d*********g.com_0 #2"
+      - "3,4,5|d*********g.com_1 #2"
+      - "3,4,5|d*********g.com_2 #2"
+      - "3,4,5|d*********g.com_3 #2"
+      - 13|🇭🇰 香港|@ripaojiedian
+      - 13|🇭🇰 香港2|@ripaojiedian
+      - 13|🇭🇰 香港3|@ripaojiedian
+      - 13|🇭🇰 香港4|@ripaojiedian
+      - 13|🇭🇰 香港5|@ripaojiedian
+      - 13|🇭🇰 香港X|@ripaojiedian
+      - 13|🇹🇼 台湾|@ripaojiedian
+      - 13|🇯🇵 日本|@ripaojiedian
+      - 13|🇯🇵 日本2|@ripaojiedian
+      - 13|🇯🇵 日本3|@ripaojiedian
+      - 13|🇰🇷 韩国2|@ripaojiedian
+      - 13|🇸🇬 新加坡|@ripaojiedian
+      - 13|🇸🇬 新加坡2|@ripaojiedian
+      - 13|🇸🇬 新加坡3|@ripaojiedian
+      - 13|🇺🇸 美国4|@ripaojiedian
+      - 13|🇰🇷 韩国特殊|@ripaojiedian
+      - 13|🇯🇵 日本特殊|@ripaojiedian
+      - 13|🇸🇬 狮城特殊|@ripaojiedian
+      - 14|香港|@ripaojiedian
+      - 14|香港2|@ripaojiedian
+      - 14|香港3|@ripaojiedian
+      - 14|香港4|@ripaojiedian
+      - 14|香港5|@ripaojiedian
+      - 14|香港X|@ripaojiedian
+      - 14|台湾|@ripaojiedian
+      - 14|日本|@ripaojiedian
+      - 14|日本2|@ripaojiedian
+      - 14|日本3|@ripaojiedian
+      - 14|韩国2|@ripaojiedian
+      - 14|新加坡|@ripaojiedian
+      - 14|新加坡2|@ripaojiedian
+      - 14|新加坡3|@ripaojiedian
+      - 14|美国|@ripaojiedian
+      - 14|美国3|@ripaojiedian
+      - 14|美国4|@ripaojiedian
+      - 14|韩国特殊|@ripaojiedian
+      - 14|日本特殊|@ripaojiedian
+      - 14|狮城特殊|@ripaojiedian
+      - 15|US_speednode_0055
+      - 15|US_speednode_0057
+      - 15|US_speednode_0058
+      - 15|US_speednode_0061
+      - 15|US_speednode_0067
+      - "16|d*********g.com_2 #3"
+      - "3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
