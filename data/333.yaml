@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-22 09:09:05
+# 生成时间：2024-11-25 09:33:19
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,85 +58,126 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇵🇦_PA_巴拿马
-    port: 989
-    server: 138.186.142.4
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 205.134.180.150
     type: ss
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: aes-256-cfb
+    password: 5cp9Z3iWnJZ2
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+    port: 2095
+    server: 104.20.18.168
+    type: vmess
+    network: ws
+    udp: true
+    sni: c2.6016725.xyz
+    skip-cert-verify: false
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: c2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
-    port: 58831
-    server: 183.236.48.163
+    port: 52112
+    server: 183.236.51.23
     type: vmess
     network: tcp
     udp: true
     cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
-  - name: 🇨🇳_CN_中国_1
-    port: 45016
-    server: sy2.xinyeo.cc
-    type: ss
+  - name: 🇷🇺_RU_俄罗斯_1
+    port: 8081
+    server: 194.87.31.160
+    type: vmess
+    network: tcp
     udp: true
-    password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-    cipher: aes-256-gcm
-  - name: 🇫🇷_FR_法国->🇺🇸_US_美国
-    port: 22222
-    server: 52.47.48.218
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-  - name: 🇨🇳_CN_中国_2
-    port: 45013
-    server: sy1.xinyeo.cc
-    type: ss
-    udp: true
-    password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国_1
-    port: 443
-    server: series-a2.varzesh360.co
-    type: ss
-    udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_2
-    port: 8090
-    server: 142.202.49.84
-    type: ss
-    udp: true
-    password: PCnnH6SQSnfoS27
-    cipher: aes-256-gcm
+    cipher: auto
+    uuid: a7e00c2f-411a-438f-9119-0f022a85a5e3
+    alterId: 0
   - name: 🇩🇪_DE_德国_1
     port: 8080
-    server: 45.87.175.164
+    server: 45.87.175.181
     type: ss
     udp: true
-    password: 1RWwXhwfAB5gAEozU4G2Pg
+    password: cvII85TrW6n0OGyfpHVS1u
     cipher: chacha20-ietf-poly1305
-  - name: 🇨🇳_CN_中国_3
-    port: 45009
-    server: gy1.xinyeo.cc
+  - name: 🇺🇸_US_美国->🇹🇷_TR_土耳其
+    port: 8080
+    server: 104.17.237.149
+    type: vmess
+    network: ws
+    udp: true
+    sni: 77744514375675832169113469546324.v2line.net
+    skip-cert-verify: false
+    ws-opts:
+      path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
+      headers:
+        host: 77744514375675832169113469546324.v2line.net
+    cipher: auto
+    uuid: b224029a-8614-445b-b6f7-7dbad13b0c75
+    alterId: 0
+  - name: 🇩🇪_DE_德国_2
+    port: 8080
+    server: 45.87.175.157
     type: ss
     udp: true
-    password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
+    password: 4a2rfixophdjffa8KVA4Aa
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+    port: 2095
+    server: 23.227.38.3
+    type: vmess
+    network: ws
+    udp: true
+    sni: c2.6016725.xyz
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: c2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+    port: 2095
+    server: skk.moe
+    type: vmess
+    network: ws
+    udp: true
+    sni: c2.6016725.xyz
+    skip-cert-verify: false
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: c2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+    port: 2095
+    server: 104.19.45.19
+    type: vmess
+    network: ws
+    udp: true
+    sni: c2.6016725.xyz
+    skip-cert-verify: false
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: c2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇺🇸_US_美国_4
+    port: 7002
+    server: 142.202.49.119
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国_2
-    port: 443
-    server: series-a2.samanehha.co
-    type: ss
-    udp: true
-    password: mps3FwmDjLrWaOVg
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_3
-    port: 443
-    server: 52.33.189.33
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
   - name: 🇷🇺_RU_俄罗斯_2
     port: 33068
     server: 193.124.22.253
@@ -144,12 +185,50 @@ proxies:
     udp: true
     password: 3MgIhqwp4pjM8SKwixNkYZ
     cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_4
-    port: 6679
-    server: 142.202.49.84
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+    port: 2095
+    server: 172.64.167.19
+    type: vmess
+    network: ws
+    udp: true
+    sni: c2.6016725.xyz
+    skip-cert-verify: false
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: c2.6016725.xyz
+    cipher: auto
+    uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+    alterId: 0
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
+    port: 58831
+    server: 120.232.153.27
+    type: vmess
+    network: tcp
+    udp: true
+    cipher: auto
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+  - name: 🇺🇸_US_美国_8
+    port: 8090
+    server: 38.110.1.203
     type: ss
     udp: true
-    password: TEzjfAYq2IjtuoS
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: 🇹🇷_TR_土耳其
+    port: 989
+    server: 185.123.101.241
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_9
+    port: 8881
+    server: 54.37.12.70
+    type: ss
+    udp: true
+    password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
   - name: 🇷🇺_RU_俄罗斯_3
     port: 9060
@@ -158,51 +237,34 @@ proxies:
     udp: true
     password: ueLXVkvh4hckhErQ
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
-    port: 443
-    server: 44.244.24.140
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_7
+  - name: 🇺🇸_US_美国_10
     port: 5004
-    server: 142.202.49.84
+    server: 142.202.48.105
     type: ss
     udp: true
     password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国_4
-    port: 45011
-    server: sy1.xinyeo.cc
-    type: ss
+  - name: 🇺🇸_US_美国->🇸🇪_SE_瑞典
+    port: 443
+    server: 65.20.115.19
+    type: trojan
     udp: true
-    password: 186d82fb-7cd4-45f5-b519-4e95f726cdc1
-    cipher: aes-256-gcm
-  - name: 🇩🇪_DE_德国_2
-    port: 8080
-    server: 45.87.175.154
-    type: ss
+    sni: myket.io
+    password: wkmY1R4EcP
+    skip-cert-verify: true
+  - name: 🇺🇸_US_美国_11
+    port: 443
+    server: 104.17.49.240
+    type: trojan
+    network: ws
     udp: true
-    password: cvII85TrW6n0OGyfpHVS1u
-    cipher: chacha20-ietf-poly1305
-  - name: 🇷🇺_RU_俄罗斯_4
-    port: 12224
-    server: 194.87.82.28
-    type: ss
-    udp: true
-    password: 2fwufOmJ9ELfN4umzcHBfV
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_8
-    port: 5001
-    server: 142.202.49.84
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 52112
-    server: 183.236.51.23
+    sni: 09jzus.zdzdzd.xyz
+    password: WOeXShhJpL
+    ws-opts:
+      path: /juzigongyi
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
+    port: 58831
+    server: 183.236.48.163
     type: vmess
     network: tcp
     udp: true
@@ -215,159 +277,165 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -390,27 +458,28 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇵🇦_PA_巴拿马
+      - 🇺🇸_US_美国_1
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
       - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇨🇳_CN_中国_1
-      - 🇫🇷_FR_法国->🇺🇸_US_美国
-      - 🇨🇳_CN_中国_2
-      - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_2
+      - 🇷🇺_RU_俄罗斯_1
       - 🇩🇪_DE_德国_1
-      - 🇨🇳_CN_中国_3
-      - 🇬🇧_GB_英国_2
-      - 🇺🇸_US_美国_3
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_4
-      - 🇷🇺_RU_俄罗斯_3
-      - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国_4
+      - 🇺🇸_US_美国->🇹🇷_TR_土耳其
       - 🇩🇪_DE_德国_2
-      - 🇷🇺_RU_俄罗斯_4
-      - 🇺🇸_US_美国_8
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
+      - 🇺🇸_US_美国_4
+      - 🇷🇺_RU_俄罗斯_2
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
       - 🇨🇳_CN_中国->🇺🇸_US_美国_2
+      - 🇺🇸_US_美国_8
+      - 🇹🇷_TR_土耳其
+      - 🇺🇸_US_美国_9
+      - 🇷🇺_RU_俄罗斯_3
+      - 🇺🇸_US_美国_10
+      - 🇺🇸_US_美国->🇸🇪_SE_瑞典
+      - 🇺🇸_US_美国_11
+      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
