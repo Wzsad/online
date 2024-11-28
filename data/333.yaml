@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-11-28 10:19:35
+# 生成时间：2024-11-28 10:21:44
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -63,7 +63,10 @@ proxies:
     server: 190.93.245.76
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -90,8 +93,9 @@ proxies:
     server: 190.93.247.127
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -105,8 +109,9 @@ proxies:
     server: 190.93.245.174
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -120,7 +125,10 @@ proxies:
     server: 190.93.244.64
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -133,7 +141,10 @@ proxies:
     server: 190.93.247.23
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -146,8 +157,9 @@ proxies:
     server: 190.93.245.16
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -161,7 +173,10 @@ proxies:
     server: 190.93.247.203
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -195,7 +210,10 @@ proxies:
     server: 190.93.245.168
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -215,7 +233,10 @@ proxies:
     server: 190.93.247.221
     type: vmess
     network: ws
+    tls: false
     udp: true
+    version: "2"
+    skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
       headers:
@@ -242,8 +263,9 @@ proxies:
     server: 190.93.244.33
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -257,8 +279,9 @@ proxies:
     server: 190.93.244.228
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -279,8 +302,9 @@ proxies:
     server: 190.93.246.196
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -294,8 +318,9 @@ proxies:
     server: 190.93.246.120
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -309,8 +334,9 @@ proxies:
     server: 190.93.247.170
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -324,8 +350,9 @@ proxies:
     server: 190.93.245.103
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -339,8 +366,9 @@ proxies:
     server: 190.93.246.178
     type: vmess
     network: ws
+    tls: false
     udp: true
-    sni: ""
+    servername: ""
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -348,6 +376,56 @@ proxies:
         host: ip18.6929198.xyz
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇩🇪[openproxylist.com] trojan-DE
+    port: 22222
+    server: 18.193.207.141
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇯🇵[openproxylist.com] trojan-JP
+    port: 20230
+    server: jp006.421421.xyz
+    type: trojan
+    udp: true
+    password: 429ad146-8f43-4dd4-8fb3-cca3f3a30c63
+    skip-cert-verify: false
+  - name: 🇷🇺[openproxylist.com] vmess-RU_1
+    port: 8080
+    server: 176.32.33.158
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 7c1ca55f-a56c-4253-ac9b-a3904046c173
+    alterId: 0
+  - name: 🇷🇺[openproxylist.com] vmess-RU_2
+    port: 8080
+    server: 176.32.33.158
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ""
+    cipher: auto
+    uuid: 7eaefdd1-6210-4837-8ce5-3ac2c4f391e0
     alterId: 0
 proxy-groups:
   - name: 🚀 节点选择
@@ -380,6 +458,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -411,6 +493,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -442,6 +528,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -472,6 +562,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -502,6 +596,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -532,6 +630,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -579,6 +681,10 @@ proxy-groups:
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_7
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_8
       - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_8
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇯🇵[openproxylist.com] trojan-JP
+      - 🇷🇺[openproxylist.com] vmess-RU_1
+      - 🇷🇺[openproxylist.com] vmess-RU_2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
