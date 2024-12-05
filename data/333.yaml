@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2024-12-03 15:51:54
+# 生成时间：2024-12-05 17:40:21
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,6 +58,22 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+    port: 2082
+    server: 190.93.244.228
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
   - name: 🇨🇳_CN_中国->🇺🇸_US_美国
     port: 58831
     server: 120.232.153.27
@@ -70,28 +86,60 @@ proxies:
     cipher: auto
     uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     alterId: 64
+  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+    port: 2082
+    server: 190.93.247.127
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+    port: 2082
+    server: 45.131.208.116
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
   - name: 🇺🇸_US_美国_2
-    port: 443
-    server: 54.200.220.184
+    port: 8080
+    server: 38.110.1.46
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇬🇧_GB_英国->🇯🇵_JP_日本
     port: 443
-    server: 54.191.9.106
+    server: series-a1.samanehha.co
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇬🇧_GB_英国->🇨🇦_CA_加拿大
+    password: W74XFALLLuw6m5IA
+    cipher: chacha20-ietf-poly1305
+  - name: 🇧🇬_BG_保加利亚
     port: 2082
-    server: 45.8.211.242
+    server: 185.176.26.131
     type: vmess
     network: ws
     tls: false
     udp: true
-    servername: ""
+    version: "2"
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -100,14 +148,14 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
+  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
     port: 2082
-    server: 190.93.245.16
+    server: 45.159.218.63
     type: vmess
     network: ws
     tls: false
     udp: true
-    servername: ""
+    version: "2"
     skip-cert-verify: true
     ws-opts:
       path: /github.com/Alvin9999
@@ -116,39 +164,30 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国_3
+  - name: 🇺🇸_US_美国_4
     port: 443
-    server: 50.112.199.89
+    server: 54.203.119.192
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-    port: 2082
-    server: 185.193.30.187
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇸🇬_SG_新加坡_1
+  - name: 🇺🇸_US_美国_6
     port: 443
-    server: 54.179.69.136
+    server: 52.12.67.119
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_7
+    port: 443
+    server: 54.189.131.201
     type: ss
     udp: true
     password: amazonskr05
     cipher: aes-256-cfb
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
     port: 2082
-    server: 104.26.0.206
+    server: 104.129.166.167
     type: vmess
     network: ws
     tls: false
@@ -156,27 +195,119 @@ proxies:
     servername: ""
     skip-cert-verify: true
     ws-opts:
-      path: github.com/Alvin9999
+      path: /github.com/Alvin9999
       headers:
-        host: e4.6929198.xyz
+        host: ip18.6929198.xyz
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇸🇬_SG_新加坡_2
-    port: 443
-    server: 54.169.5.182
-    type: ss
+  - name: 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+    port: 2082
+    server: 45.131.6.94
+    type: vmess
+    network: ws
+    tls: false
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_4
-    port: 443
-    server: 18.236.180.126
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
   - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
+    port: 2082
+    server: 167.68.5.24
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国_8
+    port: 443
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_9
+    port: 5500
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+    port: 1722
+    server: 78.47.115.151
+    type: ss
+    udp: true
+    password: g7CjtJIx-tLChd3t6WSLzg
+    cipher: chacha20-ietf-poly1305
+  - name: 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+    port: 2082
+    server: 89.116.250.94
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国_11
+    port: 7001
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: RexnBgU7EV5ADxG
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+    port: 443
+    server: 34.216.74.178
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_14
+    port: 6679
+    server: 38.110.1.46
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+    port: 2082
+    server: 192.65.217.254
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
     port: 8880
     server: 104.18.114.56
     type: vmess
@@ -192,9 +323,25 @@ proxies:
     cipher: auto
     uuid: 90f8f4dc-8092-4355-9047-05f506f5e9ab
     alterId: 0
-  - name: 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
+  - name: 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
     port: 2082
-    server: 195.85.59.158
+    server: 195.245.221.107
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /github.com/Alvin9999
+      headers:
+        host: ip18.6929198.xyz
+    cipher: auto
+    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+    alterId: 0
+  - name: 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+    port: 2082
+    server: 190.93.247.170
     type: vmess
     network: ws
     tls: false
@@ -208,87 +355,46 @@ proxies:
     cipher: auto
     uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
     alterId: 0
-  - name: 🇺🇸_US_美国_5
-    port: 443
-    server: 34.221.162.56
+  - name: 🇬🇧_GB_英国
+    port: 19940
+    server: 51.13.114.206
     type: ss
     udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国_6
+    password: Bk6CwTEYasiCd9iqVOvOpZ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇸🇬[openproxylist.com] vmess-SG
+    port: 23451
+    server: westsg2-ddns.oraclenat.cc
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: westsg2-ddns.oraclenat.cc
+    cipher: auto
+    uuid: dfd5a636-3279-4ee4-ab10-2089bfc932d4
+    alterId: 0
+  - name: 🇺🇸[openproxylist.com] trojan-US
     port: 443
-    server: 54.189.131.201
-    type: ss
-    udp: true
-    password: amazonskr05
-    cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
-    port: 2082
-    server: 168.100.6.46
-    type: vmess
+    server: 172.64.235.138
+    type: trojan
     network: ws
-    tls: false
     udp: true
-    servername: ""
-    skip-cert-verify: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
     ws-opts:
-      path: /github.com/Alvin9999
+      path: /?ed=2560
       headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_7
-    port: 2082
-    server: 190.93.245.103
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
-    port: 2082
-    server: 190.93.245.174
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /github.com/Alvin9999
-      headers:
-        host: ip18.6929198.xyz
-    cipher: auto
-    uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-    alterId: 0
-  - name: 🇺🇸_US_美国_8
-    port: 2086
-    server: 104.21.238.163
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: github.com/Alvin9999
-      headers:
-        host: p1.613055.xyz
-    cipher: auto
-    uuid: bc65fac2-7dc7-426f-acdd-0779a5035bde
-    alterId: 0
-  - name: 🇩🇪[openproxylist.com] trojan-DE_1
+        host: td.promote.icu
+    client-fingerprint: randomized
+  - name: 🇮🇪[openproxylist.com] trojan-IE
     port: 22222
-    server: 35.159.103.214
+    server: 34.250.114.133
     type: trojan
     network: tcp
     udp: true
@@ -297,9 +403,9 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
-  - name: 🇩🇪[openproxylist.com] trojan-DE_2
+  - name: 🇬🇧[openproxylist.com] trojan-GB
     port: 22222
-    server: 3.76.177.253
+    server: 18.171.128.21
     type: trojan
     network: tcp
     udp: true
@@ -308,9 +414,25 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
-  - name: 🇩🇪[openproxylist.com] trojan-DE_3
+  - name: 🇰🇷[openproxylist.com] vmess-KR
+    port: 23451
+    server: seoul-02-ddns.faforex.eu.org
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: seoul-02-ddns.faforex.eu.org
+    cipher: auto
+    uuid: dfd5a636-3279-4ee4-ab10-2089bfc932d4
+    alterId: 0
+  - name: 🇸🇪[openproxylist.com] trojan-SE
     port: 22222
-    server: 3.69.124.41
+    server: 16.16.10.106
     type: trojan
     network: tcp
     udp: true
@@ -325,165 +447,225 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -506,28 +688,38 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳_CN_中国->🇺🇸_US_美国
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
-      - 🇬🇧_GB_英国->🇨🇦_CA_加拿大
       - 🇺🇸_US_美国->🇨🇦_CA_加拿大_1
-      - 🇺🇸_US_美国_3
-      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大
-      - 🇸🇬_SG_新加坡_1
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
-      - 🇸🇬_SG_新加坡_2
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_1
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_1
+      - 🇺🇸_US_美国_2
+      - 🇬🇧_GB_英国->🇯🇵_JP_日本
+      - 🇧🇬_BG_保加利亚
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_2
       - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
-      - 🇩🇰_DK_丹麦->🇨🇦_CA_加拿大
-      - 🇺🇸_US_美国_5
       - 🇺🇸_US_美国_6
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_4
       - 🇺🇸_US_美国_7
-      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_6
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_2
+      - 🇳🇱_NL_荷兰->🇨🇦_CA_加拿大_3
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_3
       - 🇺🇸_US_美国_8
-      - 🇩🇪[openproxylist.com] trojan-DE_1
-      - 🇩🇪[openproxylist.com] trojan-DE_2
-      - 🇩🇪[openproxylist.com] trojan-DE_3
+      - 🇺🇸_US_美国_9
+      - 🇩🇪_DE_德国->🇮🇷_IR_伊朗
+      - 🇱🇹_LT_立陶宛->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国_11
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
+      - 🇺🇸_US_美国_14
+      - 🇦🇺_AU_澳大利亚->🇨🇦_CA_加拿大
+      - 🇺🇸_US_美国->🇨🇦_CA_加拿大_5
+      - 🇺🇦_UA_乌克兰->🇨🇦_CA_加拿大
+      - 🇨🇷_CR_哥斯达黎加->🇨🇦_CA_加拿大_2
+      - 🇬🇧_GB_英国
+      - 🇸🇬[openproxylist.com] vmess-SG
+      - 🇺🇸[openproxylist.com] trojan-US
+      - 🇮🇪[openproxylist.com] trojan-IE
+      - 🇬🇧[openproxylist.com] trojan-GB
+      - 🇰🇷[openproxylist.com] vmess-KR
+      - 🇸🇪[openproxylist.com] trojan-SE
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
