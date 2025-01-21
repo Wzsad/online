@@ -1,6 +1,6 @@
 # 生成地址：v2rayse.com
 # 模版名称：defaultName
-# 生成时间：2025-01-13 18:21:09
+# 生成时间：2025-01-21 15:01:44
 # 不要随意改变关键字，否则会导致出错
 # acl4SSR规则
 # 去广告：支持
@@ -58,112 +58,8 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: 🇺🇸_US_美国_1
-    port: 8119
-    server: 23.157.40.87
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇷🇺_RU_俄罗斯_1
-    port: 443
-    server: wise-cowbird.boa152.lol
-    type: trojan
-    udp: true
-    sni: wise-cowbird.boa152.lol
-    password: "3723507166611775488"
-    skip-cert-verify: false
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_1
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
     port: 25216
-    server: cm.awslcn.info
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cm.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇺🇸_US_美国_2
-    port: 8080
-    server: 23.251.121.242
-    type: ss
-    udp: true
-    password: 14fFPrbezE3HDZzsMOr6
-    cipher: rc4-md5
-  - name: 🇺🇸_US_美国_3
-    port: 5004
-    server: 23.157.40.87
-    type: ss
-    udp: true
-    password: g5MeD6Ft3CWlJId
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_4
-    port: 8118
-    server: 23.157.40.5
-    type: ss
-    udp: true
-    password: cdBIDV42DCwnfIN
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_5
-    port: 8882
-    server: 23.157.40.87
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_6
-    port: 3389
-    server: 23.157.40.5
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国_1
-    port: 22222
-    server: 51.24.47.187
-    type: trojan
-    udp: true
-    sni: trojan.burgerip.co.uk
-    password: telegram-id-privatevpns
-    skip-cert-verify: false
-  - name: 🇺🇸_US_美国_7
-    port: 8888
-    server: 23.157.40.5
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_2
-    port: 17001
-    server: 8tv68qhq.slashdevslashnetslashtun.net
-    type: ss
-    udp: true
-    password: QBNVUDH1J62ZEVWK
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_3
-    port: 25284
-    server: cu.awslcn.info
-    type: vmess
-    network: ws
-    tls: false
-    udp: true
-    servername: ""
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: cu.awslcn.info
-    cipher: auto
-    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
-    alterId: 0
-  - name: 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-    port: 25230
     server: cm1.awslcn.info
     type: vmess
     network: ws
@@ -178,50 +74,21 @@ proxies:
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇺🇸_US_美国_8
-    port: 5601
-    server: 23.157.40.87
+  - name: 🇦🇱_AL_阿尔巴尼亚
+    port: 33333
+    server: 109.104.154.146
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
+    password: dongtaiwang.com
     cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_9
-    port: 6679
-    server: 23.157.40.5
+  - name: 🇺🇸_US_美国_1
+    port: 443
+    server: 54.214.180.125
     type: ss
     udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_10
-    port: 7002
-    server: 23.157.40.87
-    type: ss
-    udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_4
-    port: 21332
-    server: 120.232.217.96
-    type: trojan
-    udp: true
-    sni: 120.232.217.96
-    password: 7daf833c-37b9-4afc-8495-96590f03f781
-    skip-cert-verify: true
-  - name: 🇺🇸_US_美国_12
-    port: 8882
-    server: 23.157.40.5
-    type: ss
-    udp: true
-    password: kDWvXYZoTBcGkC4
-    cipher: aes-256-gcm
-  - name: 🇬🇧_GB_英国_2
-    port: 989
-    server: 62.100.205.48
-    type: ss
-    udp: true
-    password: f8f7aCzcPKbsF8p3
+    password: amazonskr05
     cipher: aes-256-cfb
-  - name: 🇨🇳_CN_中国->🇺🇸_US_美国_5
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
     port: 25240
     server: cm.awslcn.info
     type: vmess
@@ -237,16 +104,127 @@ proxies:
     cipher: auto
     uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
     alterId: 0
-  - name: 🇷🇺_RU_俄罗斯_2
-    port: 23456
-    server: 185.22.155.228
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+    port: 25256
+    server: us1.awslcn.info
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: us1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇸🇬_SG_新加坡
+    port: 8880
+    server: s1.db-link01.top
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: 100-250-32-53.s1.db-link01.top
+    skip-cert-verify: true
+    ws-opts:
+      path: /dabai.in172.67.95.35
+      headers:
+        host: 100-250-32-53.s1.db-link01.top
+    cipher: auto
+    uuid: 4b36625c-b9d9-3ea6-aed5-86d62c70e16d
+    alterId: 0
+  - name: 🇬🇧_GB_英国_1
+    port: 17926
+    server: 5.39.252.204
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: ""
+    cipher: auto
+    uuid: eb060c08-f284-49be-adb8-5188fb0521a5
+    alterId: 0
+  - name: 🇩🇰_DK_丹麦
+    port: 989
+    server: 185.186.79.53
     type: ss
     udp: true
-    password: dongtaiwang.com
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_13
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+    port: 25238
+    server: us1.awslcn.info
+    type: vmess
+    network: ws
+    tls: false
+    udp: true
+    servername: ""
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: us1.awslcn.info
+    cipher: auto
+    uuid: 243eab52-9ac1-405c-887c-eb112c0985b8
+    alterId: 0
+  - name: 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+    port: 443
+    server: 54.187.174.202
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇺🇸_US_美国_2
+    port: 989
+    server: 185.237.185.160
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇮🇷_IR_伊朗
+    port: 80
+    server: 94.182.150.230
+    type: vmess
+    network: tcp
+    tls: false
+    udp: true
+    version: "2"
+    skip-cert-verify: true
+    cipher: auto
+    uuid: 2b7ce1d2-0372-4104-aa06-f7d999f26e1d
+    alterId: 0
+  - name: 🇮🇪_IE_爱尔兰
+    port: 25444
+    server: 13.79.171.214
+    type: ss
+    udp: true
+    password: drqi55BCvwi3nOXulYjGLQ
+    cipher: chacha20-ietf-poly1305
+  - name: 🇦🇹_AT_奥地利->🇺🇸_US_美国
+    port: 990
+    server: 192.36.61.59
+    type: ss
+    udp: true
+    password: f8f7aCzcPKbsF8p3
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+    port: 443
+    server: 34.221.178.146
+    type: ss
+    udp: true
+    password: amazonskr05
+    cipher: aes-256-cfb
+  - name: 🇩🇪_DE_德国->🇬🇧_GB_英国
     port: 22222
-    server: 3.72.208.108
+    server: 52.57.178.183
     type: trojan
     network: tcp
     udp: true
@@ -255,280 +233,299 @@ proxies:
     skip-cert-verify: false
     alpn:
       - http/1.1
-  - name: 🇺🇸_US_美国_14
-    port: 8888
-    server: 23.157.40.87
+  - name: 🇺🇸_US_美国_6
+    port: 989
+    server: 185.47.253.171
     type: ss
     udp: true
-    password: Y6R9pAtvxxzmGC
-    cipher: aes-256-gcm
-  - name: 🇺🇸_US_美国_15
+    password: f8f7aCzcPKbsF8p3
+    cipher: aes-256-cfb
+  - name: 🇳🇱_NL_荷兰
+    port: 8388
+    server: 45.140.146.223
+    type: ss
+    udp: true
+    password: YjJiYzBj
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国->🇰🇷_KR_韩国
     port: 443
-    server: 184.170.241.194
-    type: ss
+    server: us01.trojanyyds.xyz
+    type: trojan
     udp: true
-    password: shadowsocks
-    cipher: aes-128-cfb
-  - name: 🇱🇹_LT_立陶宛
-    port: 990
-    server: 147.78.1.27
-    type: ss
+    sni: us01.trojanyyds.xyz
+    password: 243eab52-9ac1-405c-887c-eb112c0985b8
+    skip-cert-verify: false
+  - name: 🇬🇧_GB_英国->🇺🇸_US_美国
+    port: 22222
+    server: 18.134.2.71
+    type: trojan
+    network: tcp
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
-  - name: 🇺🇸_US_美国_16
-    port: 6697
-    server: 23.157.40.87
-    type: ss
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇬🇧_GB_英国_2
+    port: 22222
+    server: 18.133.54.130
+    type: trojan
+    network: tcp
     udp: true
-    password: TEzjfAYq2IjtuoS
-    cipher: aes-256-gcm
-  - name: 🇰🇷[openproxylist.com] vmess-KR_1
-    port: 23451
-    server: seoul-1ddns.aboutanime.eu.org
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇫🇷[openproxylist.com] trojan-FR
+    port: 22222
+    server: 13.37.56.110
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇩🇪[openproxylist.com] trojan-DE
+    port: 22222
+    server: 63.177.164.167
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇺🇸[openproxylist.com] vmess-US
+    port: 443
+    server: 96.126.102.150
     type: vmess
     network: ws
-    tls: false
+    tls: true
     udp: true
-    version: "2"
+    servername: ""
     skip-cert-verify: true
     ws-opts:
-      path: /
+      path: /datasheet
       headers:
-        host: seoul-1ddns.aboutanime.eu.org
+        host: s1.datasheetserver.com
     cipher: auto
-    uuid: 4a2771e1-d31f-4590-812d-be880ba87997
+    uuid: 051e3f0c-c139-4c7c-9559-41222b72ca20
     alterId: 0
-  - name: 🇰🇷[openproxylist.com] vmess-KR_2
-    port: 23451
-    server: seoul-1ddns.aboutanime.eu.org
-    type: vmess
-    network: ws
-    tls: false
+  - name: 🇸🇪[openproxylist.com] trojan-SE
+    port: 22222
+    server: 51.21.68.107
+    type: trojan
+    network: tcp
     udp: true
-    version: "2"
-    skip-cert-verify: true
-    ws-opts:
-      path: /
-      headers:
-        host: seoul-1ddns.aboutanime.eu.org
-    cipher: auto
-    uuid: 7eb08b9e-6f0b-4f54-b3f2-30fe440369c6
-    alterId: 0
-  - name: 🇨🇦[openproxylist.com] ss-CA
-    port: 990
-    server: 79.127.233.170
-    type: ss
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: 🇬🇧[openproxylist.com] trojan-GB
+    port: 22222
+    server: 18.134.2.71
+    type: trojan
+    network: tcp
     udp: true
-    password: f8f7aCzcPKbsF8p3
-    cipher: chacha20-ietf-poly1305
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -551,35 +548,32 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_1
+      - 🇦🇱_AL_阿尔巴尼亚
       - 🇺🇸_US_美国_1
-      - 🇷🇺_RU_俄罗斯_1
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_2
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_3
+      - 🇺🇸_US_美国->🇸🇬_SG_新加坡
       - 🇬🇧_GB_英国_1
-      - 🇺🇸_US_美国_7
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_3
-      - 🇨🇳_CN_中国->🇷🇺_RU_俄罗斯
-      - 🇺🇸_US_美国_8
-      - 🇺🇸_US_美国_9
-      - 🇺🇸_US_美国_10
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_12
+      - 🇩🇰_DK_丹麦
+      - 🇨🇳_CN_中国->🇰🇷_KR_韩国_4
+      - 🇺🇸_US_美国->🇷🇺_RU_俄罗斯
+      - 🇺🇸_US_美国_2
+      - 🇮🇷_IR_伊朗
+      - 🇮🇪_IE_爱尔兰
+      - 🇦🇹_AT_奥地利->🇺🇸_US_美国
+      - 🇺🇸_US_美国->🇱🇹_LT_立陶宛
+      - 🇩🇪_DE_德国->🇬🇧_GB_英国
+      - 🇺🇸_US_美国_6
+      - 🇳🇱_NL_荷兰
+      - 🇺🇸_US_美国->🇰🇷_KR_韩国
+      - 🇬🇧_GB_英国->🇺🇸_US_美国
       - 🇬🇧_GB_英国_2
-      - 🇨🇳_CN_中国->🇺🇸_US_美国_5
-      - 🇷🇺_RU_俄罗斯_2
-      - 🇺🇸_US_美国_13
-      - 🇺🇸_US_美国_14
-      - 🇺🇸_US_美国_15
-      - 🇱🇹_LT_立陶宛
-      - 🇺🇸_US_美国_16
-      - 🇰🇷[openproxylist.com] vmess-KR_1
-      - 🇰🇷[openproxylist.com] vmess-KR_2
-      - 🇨🇦[openproxylist.com] ss-CA
+      - 🇫🇷[openproxylist.com] trojan-FR
+      - 🇩🇪[openproxylist.com] trojan-DE
+      - 🇺🇸[openproxylist.com] vmess-US
+      - 🇸🇪[openproxylist.com] trojan-SE
+      - 🇬🇧[openproxylist.com] trojan-GB
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
