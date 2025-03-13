@@ -1,6 +1,6 @@
 # 模版名称：ACL4SSR.ini
 # 模版最后更新日期：2025/02/10 17:22:37
-# 配置生成日期：2025-03-10 22:01:39
+# 配置生成日期：2025-03-13 16:31:39
 
 mixed-port: 7890
 allow-lan: false
@@ -52,64 +52,84 @@ tun:
 proxies:
   - name: 🇺🇸_US_美国_1
     type: ss
-    server: 34.214.175.186
+    server: 34.217.100.159
     port: 443
     password: amazonskr05
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇧🇬_BG_保加利亚_1
+  - name: 🇨🇭_CH_瑞士
     type: ss
-    server: 149.34.244.71
-    port: 443
-    password: shadowsocks
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: 🇧🇬_BG_保加利亚_2
-    type: ss
-    server: 149.34.244.71
-    port: 443
-    password: shadowsocks
-    ip-version: dual
-    udp: true
-    cipher: aes-128-gcm
-  - name: 🇺🇸_US_美国_2
-    type: ss
-    server: 34.222.44.5
-    port: 443
-    password: amazonskr05
+    server: 84.17.53.160
+    port: 989
+    password: f8f7aCzcPKbsF8p3
     ip-version: dual
     udp: true
     cipher: aes-256-cfb
-  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时_3
+  - name: 🇮🇳_IN_印度
+    type: ss
+    server: 103.104.247.49
+    port: 8080
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇩🇪_DE_德国
+    type: ss
+    server: 45.87.175.166
+    port: 8080
+    password: 1RWwXhwfAB5gAEozU4G2Pg
+    ip-version: dual
+    udp: true
+    cipher: chacha20-ietf-poly1305
+  - name: 🇺🇸_US_美国_3
+    type: ss
+    server: 69.50.95.86
+    port: 8888
+    password: Y6R9pAtvxxzmGC
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 🇺🇸_US_美国_4
     type: vmess
-    server: 172.67.202.155
-    port: 2082
-    uuid: 5ce824bc-d76b-4420-aef3-45a7bade5228
+    server: 207.90.237.96
+    port: 23008
+    uuid: 4651cf71-e87e-41ef-8ed2-61a7f409e7d3
     network: ws
+    sni: ''
+    skip-cert-verify: true
     ws-opts:
-      path: /@MEHDIO1
-      headers:
-        host: zoornazanfarsineveshtam.onetwothree123.ir
+      path: /
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
-  - name: 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+  - name: 🇺🇸_US_美国_6
+    type: ss
+    server: 69.50.95.86
+    port: 6379
+    password: zDNVedRFPQexG9v
+    ip-version: dual
+    udp: true
+    cipher: aes-256-gcm
+  - name: 🇨🇳_CN_中国->🇺🇸_US_美国
     type: vmess
-    server: 172.67.202.155
-    port: 2082
-    uuid: 5ce824bc-d76b-4420-aef3-45a7bade5228
-    network: ws
-    ws-opts:
-      path: /@MEHDIO1
-      headers:
-        host: zoornazanfarsineveshtam.onetwothree123.ir
+    server: 183.236.51.38
+    port: 41699
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    network: tcp
     ip-version: dual
     udp: true
     alterId: 0
     cipher: auto
+  - name: 🇬🇧_GB_英国
+    type: ss
+    server: 51.15.27.48
+    port: 989
+    password: f8f7aCzcPKbsF8p3
+    ip-version: dual
+    udp: true
+    cipher: aes-256-cfb
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -117,11 +137,14 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -129,11 +152,14 @@ proxy-groups:
     tolerance: 5000
     proxies:
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -141,44 +167,56 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -202,11 +240,14 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸_US_美国_1
-      - 🇧🇬_BG_保加利亚_1
-      - 🇧🇬_BG_保加利亚_2
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_3
-      - 🇺🇸_US_美国->🇧🇪_BE_比利时_4
+      - 🇨🇭_CH_瑞士
+      - 🇮🇳_IN_印度
+      - 🇩🇪_DE_德国
+      - 🇺🇸_US_美国_3
+      - 🇺🇸_US_美国_4
+      - 🇺🇸_US_美国_6
+      - 🇨🇳_CN_中国->🇺🇸_US_美国
+      - 🇬🇧_GB_英国
 rules:
 # 本地/局域网地址
 # 参考：https://en.wikipedia.org/wiki/Reserved_IP_addresses
